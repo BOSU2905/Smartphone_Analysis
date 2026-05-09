@@ -80,3 +80,4 @@ if add_hue != True:
 else :
     chart = df.groupby(['Ram_Capacity','OS']).size().unstack(fill_value=0).sort_index()
     st.bar_chart(chart, horizontal=True, height=450)
+
