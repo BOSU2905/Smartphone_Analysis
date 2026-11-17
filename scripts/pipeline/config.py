@@ -11,6 +11,36 @@ from typing import Final, List, Set
 REPO_ROOT: Final[Path] = Path(__file__).resolve().parents[2]
 DATA_DIR: Final[Path] = REPO_ROOT / "Data"
 RAW_DATA_PATH: Final[Path] = DATA_DIR / "raw" / "smartphones_uncleaned.csv"
+PROCESSED_DATA_DIR: Final[Path] = DATA_DIR / "processed"
+
+# Output Artifact Paths
+OUTPUT_CLEANED_CSV: Final[Path] = PROCESSED_DATA_DIR / "smartphones_cleaned.csv"
+OUTPUT_CLEANED_JSON: Final[Path] = PROCESSED_DATA_DIR / "smartphones_cleaned.json"
+OUTPUT_MARKET_SUMMARY_JSON: Final[Path] = PROCESSED_DATA_DIR / "market_summary.json"
+OUTPUT_DEDUPLICATION_AUDIT_JSON: Final[Path] = PROCESSED_DATA_DIR / "deduplication_audit.json"
+OUTPUT_DATA_QUALITY_REPORT_JSON: Final[Path] = PROCESSED_DATA_DIR / "data_quality_report.json"
+
+# Deduplication Expectations (Verified Ground Truth)
+EXPECTED_DEDUPLICATED_ROW_COUNT: Final[int] = 2256
+EXPECTED_EXACT_DUPLICATE_ROW_COUNT: Final[int] = 672
+
+# Statistical Price Quintile Boundaries (INR, Right-Closed Intervals)
+QUINTILE_Q1_MAX: Final[int] = 8299
+QUINTILE_Q2_MAX: Final[int] = 11999
+QUINTILE_Q3_MAX: Final[int] = 16999
+QUINTILE_Q4_MAX: Final[int] = 29495
+
+# Editorial Price Tier Classifications (INR)
+TIER_ENTRY_LEVEL: Final[str] = "Entry-level"       # < 10,000
+TIER_BUDGET_TO_MID: Final[str] = "Budget-to-mid"   # 10,000 – 19,999
+TIER_MID_RANGE: Final[str] = "Mid-range"           # 20,000 – 34,999
+TIER_UPPER_MID: Final[str] = "Upper-mid"           # 35,000 – 59,999
+TIER_PREMIUM: Final[str] = "Premium"               # >= 60,000
+
+# Currency Conversion Constants (Deferred / Inactive in Phase 04 Stage 02)
+CURRENCY_BASE: Final[str] = "INR"
+CURRENCY_CONVERSION_STATUS: Final[str] = "DEFERRED"
+DEFERRED_CURRENCY_LABEL: Final[str] = "2024 Converted Indian Retail Price Equivalent"
 
 # Immutable Raw File Checksums (Verified Ground Truth)
 RAW_FILE_EXPECTED_BYTES: Final[int] = 1196334

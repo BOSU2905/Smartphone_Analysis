@@ -1,0 +1,6732 @@
+{
+  "raw_row_count": 2928,
+  "exact_duplicate_rows_removed": 672,
+  "unique_retained_records": 2256,
+  "duplicate_groups_count": 672,
+  "expected_raw_rows": 2928,
+  "expected_duplicate_rows": 672,
+  "expected_unique_records": 2256,
+  "is_deduplication_exact_match": true,
+  "duplicate_groups": [
+    {
+      "representative_listing_id": "rec_0001",
+      "duplicate_listing_ids": [
+        "rec_0001",
+        "rec_0049"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V40",
+      "price": "34,999"
+    },
+    {
+      "representative_listing_id": "rec_0002",
+      "duplicate_listing_ids": [
+        "rec_0002",
+        "rec_0050"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO K12x",
+      "price": "12,999"
+    },
+    {
+      "representative_listing_id": "rec_0003",
+      "duplicate_listing_ids": [
+        "rec_0003",
+        "rec_0051"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V40 Pro",
+      "price": "49,999"
+    },
+    {
+      "representative_listing_id": "rec_0004",
+      "duplicate_listing_ids": [
+        "rec_0004",
+        "rec_0052"
+      ],
+      "group_size": 2,
+      "model_name": "Motorola Edge 50 Fusion",
+      "price": "24,879"
+    },
+    {
+      "representative_listing_id": "rec_0005",
+      "duplicate_listing_ids": [
+        "rec_0005",
+        "rec_0053"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M35 5G",
+      "price": "19,999"
+    },
+    {
+      "representative_listing_id": "rec_0006",
+      "duplicate_listing_ids": [
+        "rec_0006",
+        "rec_0054"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus Nord CE 4 5G",
+      "price": "24,998"
+    },
+    {
+      "representative_listing_id": "rec_0007",
+      "duplicate_listing_ids": [
+        "rec_0007",
+        "rec_0055"
+      ],
+      "group_size": 2,
+      "model_name": "Moto G85",
+      "price": "18,880"
+    },
+    {
+      "representative_listing_id": "rec_0008",
+      "duplicate_listing_ids": [
+        "rec_0008",
+        "rec_0056"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus Nord 4",
+      "price": "29,998"
+    },
+    {
+      "representative_listing_id": "rec_0009",
+      "duplicate_listing_ids": [
+        "rec_0009",
+        "rec_0057"
+      ],
+      "group_size": 2,
+      "model_name": "Motorola Edge 50 Pro 5G",
+      "price": "29,495"
+    },
+    {
+      "representative_listing_id": "rec_0010",
+      "duplicate_listing_ids": [
+        "rec_0010",
+        "rec_0058"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V30",
+      "price": "27,999"
+    },
+    {
+      "representative_listing_id": "rec_0011",
+      "duplicate_listing_ids": [
+        "rec_0011",
+        "rec_0059"
+      ],
+      "group_size": 2,
+      "model_name": "Motorola Edge 50",
+      "price": "27,999"
+    },
+    {
+      "representative_listing_id": "rec_0012",
+      "duplicate_listing_ids": [
+        "rec_0012",
+        "rec_0060"
+      ],
+      "group_size": 2,
+      "model_name": "Moto G64",
+      "price": "14,980"
+    },
+    {
+      "representative_listing_id": "rec_0013",
+      "duplicate_listing_ids": [
+        "rec_0013",
+        "rec_0061"
+      ],
+      "group_size": 2,
+      "model_name": "CMF Phone 1",
+      "price": "15,740"
+    },
+    {
+      "representative_listing_id": "rec_0014",
+      "duplicate_listing_ids": [
+        "rec_0014",
+        "rec_0062"
+      ],
+      "group_size": 2,
+      "model_name": "realme 13 Pro Plus",
+      "price": "28,606"
+    },
+    {
+      "representative_listing_id": "rec_0015",
+      "duplicate_listing_ids": [
+        "rec_0015",
+        "rec_0063"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 12R",
+      "price": "39,999"
+    },
+    {
+      "representative_listing_id": "rec_0016",
+      "duplicate_listing_ids": [
+        "rec_0016",
+        "rec_0064"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 13",
+      "price": "16,389"
+    },
+    {
+      "representative_listing_id": "rec_0017",
+      "duplicate_listing_ids": [
+        "rec_0017",
+        "rec_0065"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO F27 Pro Plus",
+      "price": "27,999"
+    },
+    {
+      "representative_listing_id": "rec_0018",
+      "duplicate_listing_ids": [
+        "rec_0018",
+        "rec_0066"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S24 Ultra",
+      "price": "107,999"
+    },
+    {
+      "representative_listing_id": "rec_0019",
+      "duplicate_listing_ids": [
+        "rec_0019",
+        "rec_0067"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus Nord CE 4 Lite 5G",
+      "price": "19,999"
+    },
+    {
+      "representative_listing_id": "rec_0020",
+      "duplicate_listing_ids": [
+        "rec_0020",
+        "rec_0068"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A35 5G",
+      "price": "24,150"
+    },
+    {
+      "representative_listing_id": "rec_0021",
+      "duplicate_listing_ids": [
+        "rec_0021",
+        "rec_0069"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 13 Pro",
+      "price": "22,240"
+    },
+    {
+      "representative_listing_id": "rec_0022",
+      "duplicate_listing_ids": [
+        "rec_0022",
+        "rec_0070"
+      ],
+      "group_size": 2,
+      "model_name": "vivo T3x",
+      "price": "13,247"
+    },
+    {
+      "representative_listing_id": "rec_0023",
+      "duplicate_listing_ids": [
+        "rec_0023",
+        "rec_0071"
+      ],
+      "group_size": 2,
+      "model_name": "POCO F6",
+      "price": "27,899"
+    },
+    {
+      "representative_listing_id": "rec_0024",
+      "duplicate_listing_ids": [
+        "rec_0024",
+        "rec_0072"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 13 5G",
+      "price": "13,999"
+    },
+    {
+      "representative_listing_id": "rec_0025",
+      "duplicate_listing_ids": [
+        "rec_0025",
+        "rec_0073"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Neo 9 Pro",
+      "price": "36,999"
+    },
+    {
+      "representative_listing_id": "rec_0026",
+      "duplicate_listing_ids": [
+        "rec_0026",
+        "rec_0074"
+      ],
+      "group_size": 2,
+      "model_name": "vivo T3",
+      "price": "19,999"
+    },
+    {
+      "representative_listing_id": "rec_0027",
+      "duplicate_listing_ids": [
+        "rec_0027",
+        "rec_0075"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Z9x",
+      "price": "12,998"
+    },
+    {
+      "representative_listing_id": "rec_0028",
+      "duplicate_listing_ids": [
+        "rec_0028",
+        "rec_0076"
+      ],
+      "group_size": 2,
+      "model_name": "realme P1",
+      "price": "14,857"
+    },
+    {
+      "representative_listing_id": "rec_0029",
+      "duplicate_listing_ids": [
+        "rec_0029",
+        "rec_0077"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S23 FE 5G",
+      "price": "34,245"
+    },
+    {
+      "representative_listing_id": "rec_0030",
+      "duplicate_listing_ids": [
+        "rec_0030",
+        "rec_0078"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S23 5G",
+      "price": "45,910"
+    },
+    {
+      "representative_listing_id": "rec_0031",
+      "duplicate_listing_ids": [
+        "rec_0031",
+        "rec_0079"
+      ],
+      "group_size": 2,
+      "model_name": "realme GT 6T",
+      "price": "30,998"
+    },
+    {
+      "representative_listing_id": "rec_0032",
+      "duplicate_listing_ids": [
+        "rec_0032",
+        "rec_0080"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo 70 Pro",
+      "price": "17,998"
+    },
+    {
+      "representative_listing_id": "rec_0033",
+      "duplicate_listing_ids": [
+        "rec_0033",
+        "rec_0081"
+      ],
+      "group_size": 2,
+      "model_name": "POCO X6 Pro",
+      "price": "25,999"
+    },
+    {
+      "representative_listing_id": "rec_0034",
+      "duplicate_listing_ids": [
+        "rec_0034",
+        "rec_0082"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno12",
+      "price": "30,995"
+    },
+    {
+      "representative_listing_id": "rec_0035",
+      "duplicate_listing_ids": [
+        "rec_0035",
+        "rec_0083"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V30 Pro",
+      "price": "41,999"
+    },
+    {
+      "representative_listing_id": "rec_0036",
+      "duplicate_listing_ids": [
+        "rec_0036",
+        "rec_0084"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V30e",
+      "price": "27,999"
+    },
+    {
+      "representative_listing_id": "rec_0037",
+      "duplicate_listing_ids": [
+        "rec_0037",
+        "rec_0085"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 12",
+      "price": "59,999"
+    },
+    {
+      "representative_listing_id": "rec_0038",
+      "duplicate_listing_ids": [
+        "rec_0038",
+        "rec_0086"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M34",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_0039",
+      "duplicate_listing_ids": [
+        "rec_0039",
+        "rec_0087"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix GT 20 Pro 5G",
+      "price": "23,339"
+    },
+    {
+      "representative_listing_id": "rec_0040",
+      "duplicate_listing_ids": [
+        "rec_0040",
+        "rec_0088"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 13 Pro Plus 5G",
+      "price": "27,290"
+    },
+    {
+      "representative_listing_id": "rec_0041",
+      "duplicate_listing_ids": [
+        "rec_0041",
+        "rec_0089"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus Nord CE 3 5G",
+      "price": "18,999"
+    },
+    {
+      "representative_listing_id": "rec_0042",
+      "duplicate_listing_ids": [
+        "rec_0042",
+        "rec_0090"
+      ],
+      "group_size": 2,
+      "model_name": "POCO X6 5G",
+      "price": "18,999"
+    },
+    {
+      "representative_listing_id": "rec_0043",
+      "duplicate_listing_ids": [
+        "rec_0043",
+        "rec_0091"
+      ],
+      "group_size": 2,
+      "model_name": "realme 12 Pro Plus",
+      "price": "26,875"
+    },
+    {
+      "representative_listing_id": "rec_0044",
+      "duplicate_listing_ids": [
+        "rec_0044",
+        "rec_0092"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno12 Pro",
+      "price": "34,493"
+    },
+    {
+      "representative_listing_id": "rec_0045",
+      "duplicate_listing_ids": [
+        "rec_0045",
+        "rec_0093"
+      ],
+      "group_size": 2,
+      "model_name": "Motorola Edge 50 Fusion 256GB",
+      "price": "27,494"
+    },
+    {
+      "representative_listing_id": "rec_0046",
+      "duplicate_listing_ids": [
+        "rec_0046",
+        "rec_0094"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S21 FE",
+      "price": "26,650"
+    },
+    {
+      "representative_listing_id": "rec_0047",
+      "duplicate_listing_ids": [
+        "rec_0047",
+        "rec_0095"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 11R",
+      "price": "39,999"
+    },
+    {
+      "representative_listing_id": "rec_0048",
+      "duplicate_listing_ids": [
+        "rec_0048",
+        "rec_0096"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A55 5G",
+      "price": "36,000"
+    },
+    {
+      "representative_listing_id": "rec_0241",
+      "duplicate_listing_ids": [
+        "rec_0241",
+        "rec_0289"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 10 Pro",
+      "price": "42,499"
+    },
+    {
+      "representative_listing_id": "rec_0242",
+      "duplicate_listing_ids": [
+        "rec_0242",
+        "rec_0290"
+      ],
+      "group_size": 2,
+      "model_name": "Google Pixel 6A",
+      "price": "27,999"
+    },
+    {
+      "representative_listing_id": "rec_0243",
+      "duplicate_listing_ids": [
+        "rec_0243",
+        "rec_0291"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V27 Pro",
+      "price": "30,800"
+    },
+    {
+      "representative_listing_id": "rec_0244",
+      "duplicate_listing_ids": [
+        "rec_0244",
+        "rec_0292"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S24 5G 128GB",
+      "price": "56,999"
+    },
+    {
+      "representative_listing_id": "rec_0245",
+      "duplicate_listing_ids": [
+        "rec_0245",
+        "rec_0293"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S20 Ultra",
+      "price": "59,990"
+    },
+    {
+      "representative_listing_id": "rec_0246",
+      "duplicate_listing_ids": [
+        "rec_0246",
+        "rec_0294"
+      ],
+      "group_size": 2,
+      "model_name": "Google Pixel 7 Pro 5G",
+      "price": "64,999"
+    },
+    {
+      "representative_listing_id": "rec_0247",
+      "duplicate_listing_ids": [
+        "rec_0247",
+        "rec_0295"
+      ],
+      "group_size": 2,
+      "model_name": "Moto G34 8GB RAM",
+      "price": "13,989"
+    },
+    {
+      "representative_listing_id": "rec_0248",
+      "duplicate_listing_ids": [
+        "rec_0248",
+        "rec_0296"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno8 Pro 5G",
+      "price": "34,490"
+    },
+    {
+      "representative_listing_id": "rec_0249",
+      "duplicate_listing_ids": [
+        "rec_0249",
+        "rec_0297"
+      ],
+      "group_size": 2,
+      "model_name": "realme 11x 5G",
+      "price": "14,599"
+    },
+    {
+      "representative_listing_id": "rec_0250",
+      "duplicate_listing_ids": [
+        "rec_0250",
+        "rec_0298"
+      ],
+      "group_size": 2,
+      "model_name": "Itel S23 Plus",
+      "price": "13,990"
+    },
+    {
+      "representative_listing_id": "rec_0251",
+      "duplicate_listing_ids": [
+        "rec_0251",
+        "rec_0299"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M14 4G",
+      "price": "8,385"
+    },
+    {
+      "representative_listing_id": "rec_0252",
+      "duplicate_listing_ids": [
+        "rec_0252",
+        "rec_0300"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y20",
+      "price": "12,990"
+    },
+    {
+      "representative_listing_id": "rec_0253",
+      "duplicate_listing_ids": [
+        "rec_0253",
+        "rec_0301"
+      ],
+      "group_size": 2,
+      "model_name": "Motorola Edge 50 Pro 5G 12GB RAM",
+      "price": "33,794"
+    },
+    {
+      "representative_listing_id": "rec_0254",
+      "duplicate_listing_ids": [
+        "rec_0254",
+        "rec_0302"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo 60 5G",
+      "price": "15,699"
+    },
+    {
+      "representative_listing_id": "rec_0255",
+      "duplicate_listing_ids": [
+        "rec_0255",
+        "rec_0303"
+      ],
+      "group_size": 2,
+      "model_name": "POCO X5 Pro",
+      "price": "19,450"
+    },
+    {
+      "representative_listing_id": "rec_0256",
+      "duplicate_listing_ids": [
+        "rec_0256",
+        "rec_0304"
+      ],
+      "group_size": 2,
+      "model_name": "POCO F5",
+      "price": "29,999"
+    },
+    {
+      "representative_listing_id": "rec_0257",
+      "duplicate_listing_ids": [
+        "rec_0257",
+        "rec_0305"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 10R 5G",
+      "price": "28,999"
+    },
+    {
+      "representative_listing_id": "rec_0258",
+      "duplicate_listing_ids": [
+        "rec_0258",
+        "rec_0306"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S21",
+      "price": "69,999"
+    },
+    {
+      "representative_listing_id": "rec_0259",
+      "duplicate_listing_ids": [
+        "rec_0259",
+        "rec_0307"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A78 5G",
+      "price": "17,837"
+    },
+    {
+      "representative_listing_id": "rec_0260",
+      "duplicate_listing_ids": [
+        "rec_0260",
+        "rec_0308"
+      ],
+      "group_size": 2,
+      "model_name": "Lava Agni 2 5G",
+      "price": "16,999"
+    },
+    {
+      "representative_listing_id": "rec_0261",
+      "duplicate_listing_ids": [
+        "rec_0261",
+        "rec_0309"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 9R",
+      "price": "29,990"
+    },
+    {
+      "representative_listing_id": "rec_0262",
+      "duplicate_listing_ids": [
+        "rec_0262",
+        "rec_0310"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A18",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_0263",
+      "duplicate_listing_ids": [
+        "rec_0263",
+        "rec_0311"
+      ],
+      "group_size": 2,
+      "model_name": "POCO X6 Pro 512GB",
+      "price": "25,999"
+    },
+    {
+      "representative_listing_id": "rec_0264",
+      "duplicate_listing_ids": [
+        "rec_0264",
+        "rec_0312"
+      ],
+      "group_size": 2,
+      "model_name": "Google Pixel 8",
+      "price": "62,999"
+    },
+    {
+      "representative_listing_id": "rec_0265",
+      "duplicate_listing_ids": [
+        "rec_0265",
+        "rec_0313"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus Nord",
+      "price": "26,990"
+    },
+    {
+      "representative_listing_id": "rec_0266",
+      "duplicate_listing_ids": [
+        "rec_0266",
+        "rec_0314"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 12 Pro Plus 5G",
+      "price": "27,990"
+    },
+    {
+      "representative_listing_id": "rec_0267",
+      "duplicate_listing_ids": [
+        "rec_0267",
+        "rec_0315"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy F15 8GB RAM",
+      "price": "15,999"
+    },
+    {
+      "representative_listing_id": "rec_0268",
+      "duplicate_listing_ids": [
+        "rec_0268",
+        "rec_0316"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 11 Pro",
+      "price": "16,999"
+    },
+    {
+      "representative_listing_id": "rec_0269",
+      "duplicate_listing_ids": [
+        "rec_0269",
+        "rec_0317"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno10 Pro+ 5G",
+      "price": "54,999"
+    },
+    {
+      "representative_listing_id": "rec_0270",
+      "duplicate_listing_ids": [
+        "rec_0270",
+        "rec_0318"
+      ],
+      "group_size": 2,
+      "model_name": "Moto G04s",
+      "price": "7,301"
+    },
+    {
+      "representative_listing_id": "rec_0271",
+      "duplicate_listing_ids": [
+        "rec_0271",
+        "rec_0319"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 11R 256GB",
+      "price": "37,990"
+    },
+    {
+      "representative_listing_id": "rec_0272",
+      "duplicate_listing_ids": [
+        "rec_0272",
+        "rec_0320"
+      ],
+      "group_size": 2,
+      "model_name": "realme 10 Pro 5G",
+      "price": "16,939"
+    },
+    {
+      "representative_listing_id": "rec_0273",
+      "duplicate_listing_ids": [
+        "rec_0273",
+        "rec_0321"
+      ],
+      "group_size": 2,
+      "model_name": "Nothing Phone 2a Plus 12GB RAM",
+      "price": "29,999"
+    },
+    {
+      "representative_listing_id": "rec_0274",
+      "duplicate_listing_ids": [
+        "rec_0274",
+        "rec_0322"
+      ],
+      "group_size": 2,
+      "model_name": "CMF Phone 1 8GB RAM",
+      "price": "17,790"
+    },
+    {
+      "representative_listing_id": "rec_0275",
+      "duplicate_listing_ids": [
+        "rec_0275",
+        "rec_0323"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Z9x 6GB RAM",
+      "price": "14,498"
+    },
+    {
+      "representative_listing_id": "rec_0276",
+      "duplicate_listing_ids": [
+        "rec_0276",
+        "rec_0324"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Note 30 5G",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_0277",
+      "duplicate_listing_ids": [
+        "rec_0277",
+        "rec_0325"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus Nord 4 12GB RAM",
+      "price": "35,998"
+    },
+    {
+      "representative_listing_id": "rec_0278",
+      "duplicate_listing_ids": [
+        "rec_0278",
+        "rec_0326"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 12R 256GB",
+      "price": "44,999"
+    },
+    {
+      "representative_listing_id": "rec_0279",
+      "duplicate_listing_ids": [
+        "rec_0279",
+        "rec_0327"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix GT 10 Pro",
+      "price": "18,999"
+    },
+    {
+      "representative_listing_id": "rec_0280",
+      "duplicate_listing_ids": [
+        "rec_0280",
+        "rec_0328"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix GT 20 Pro 5G 12GB RAM",
+      "price": "25,250"
+    },
+    {
+      "representative_listing_id": "rec_0281",
+      "duplicate_listing_ids": [
+        "rec_0281",
+        "rec_0329"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Camon 20 Pro",
+      "price": "17,999"
+    },
+    {
+      "representative_listing_id": "rec_0282",
+      "duplicate_listing_ids": [
+        "rec_0282",
+        "rec_0330"
+      ],
+      "group_size": 2,
+      "model_name": "realme 10 Pro Plus 5G",
+      "price": "16,999"
+    },
+    {
+      "representative_listing_id": "rec_0283",
+      "duplicate_listing_ids": [
+        "rec_0283",
+        "rec_0331"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone SE 2022 (iPhone SE 3)",
+      "price": "30,730"
+    },
+    {
+      "representative_listing_id": "rec_0284",
+      "duplicate_listing_ids": [
+        "rec_0284",
+        "rec_0332"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Pova 5 Pro",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_0285",
+      "duplicate_listing_ids": [
+        "rec_0285",
+        "rec_0333"
+      ],
+      "group_size": 2,
+      "model_name": "realme C61",
+      "price": "7,699"
+    },
+    {
+      "representative_listing_id": "rec_0286",
+      "duplicate_listing_ids": [
+        "rec_0286",
+        "rec_0334"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 12 5G 8GB RAM",
+      "price": "13,999"
+    },
+    {
+      "representative_listing_id": "rec_0287",
+      "duplicate_listing_ids": [
+        "rec_0287",
+        "rec_0335"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Spark 20",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_0288",
+      "duplicate_listing_ids": [
+        "rec_0288",
+        "rec_0336"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus Nord 2",
+      "price": "25,999"
+    },
+    {
+      "representative_listing_id": "rec_0337",
+      "duplicate_listing_ids": [
+        "rec_0337",
+        "rec_0385"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Spark 20 Pro 5G",
+      "price": "15,549"
+    },
+    {
+      "representative_listing_id": "rec_0338",
+      "duplicate_listing_ids": [
+        "rec_0338",
+        "rec_0386"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus Nord 4 256GB",
+      "price": "32,998"
+    },
+    {
+      "representative_listing_id": "rec_0339",
+      "duplicate_listing_ids": [
+        "rec_0339",
+        "rec_0387"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Smart 8",
+      "price": "7,250"
+    },
+    {
+      "representative_listing_id": "rec_0340",
+      "duplicate_listing_ids": [
+        "rec_0340",
+        "rec_0388"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 13 256GB",
+      "price": "18,440"
+    },
+    {
+      "representative_listing_id": "rec_0341",
+      "duplicate_listing_ids": [
+        "rec_0341",
+        "rec_0389"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 13 8GB RAM",
+      "price": "15,499"
+    },
+    {
+      "representative_listing_id": "rec_0342",
+      "duplicate_listing_ids": [
+        "rec_0342",
+        "rec_0390"
+      ],
+      "group_size": 2,
+      "model_name": "Google Pixel 7 5G",
+      "price": "43,999"
+    },
+    {
+      "representative_listing_id": "rec_0343",
+      "duplicate_listing_ids": [
+        "rec_0343",
+        "rec_0391"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S23 Plus 5G",
+      "price": "94,999"
+    },
+    {
+      "representative_listing_id": "rec_0344",
+      "duplicate_listing_ids": [
+        "rec_0344",
+        "rec_0392"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Mi 11T Pro 5G",
+      "price": "39,999"
+    },
+    {
+      "representative_listing_id": "rec_0345",
+      "duplicate_listing_ids": [
+        "rec_0345",
+        "rec_0393"
+      ],
+      "group_size": 2,
+      "model_name": "POCO C51 128GB",
+      "price": "7,990"
+    },
+    {
+      "representative_listing_id": "rec_0346",
+      "duplicate_listing_ids": [
+        "rec_0346",
+        "rec_0394"
+      ],
+      "group_size": 2,
+      "model_name": "Moto G24 Power 8GB RAM",
+      "price": "10,499"
+    },
+    {
+      "representative_listing_id": "rec_0347",
+      "duplicate_listing_ids": [
+        "rec_0347",
+        "rec_0395"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 12 Pro Max",
+      "price": "119,900"
+    },
+    {
+      "representative_listing_id": "rec_0348",
+      "duplicate_listing_ids": [
+        "rec_0348",
+        "rec_0396"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo N53",
+      "price": "7,999"
+    },
+    {
+      "representative_listing_id": "rec_0349",
+      "duplicate_listing_ids": [
+        "rec_0349",
+        "rec_0397"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A53 5G",
+      "price": "25,590"
+    },
+    {
+      "representative_listing_id": "rec_0350",
+      "duplicate_listing_ids": [
+        "rec_0350",
+        "rec_0398"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO F27 Pro Plus 256GB",
+      "price": "29,999"
+    },
+    {
+      "representative_listing_id": "rec_0351",
+      "duplicate_listing_ids": [
+        "rec_0351",
+        "rec_0399"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y18e",
+      "price": "7,999"
+    },
+    {
+      "representative_listing_id": "rec_0352",
+      "duplicate_listing_ids": [
+        "rec_0352",
+        "rec_0400"
+      ],
+      "group_size": 2,
+      "model_name": "realme GT 2 Pro 5G",
+      "price": "32,500"
+    },
+    {
+      "representative_listing_id": "rec_0353",
+      "duplicate_listing_ids": [
+        "rec_0353",
+        "rec_0401"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 14 Pro Max",
+      "price": "127,999"
+    },
+    {
+      "representative_listing_id": "rec_0354",
+      "duplicate_listing_ids": [
+        "rec_0354",
+        "rec_0402"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A05s",
+      "price": "12,999"
+    },
+    {
+      "representative_listing_id": "rec_0355",
+      "duplicate_listing_ids": [
+        "rec_0355",
+        "rec_0403"
+      ],
+      "group_size": 2,
+      "model_name": "realme 11",
+      "price": "14,990"
+    },
+    {
+      "representative_listing_id": "rec_0356",
+      "duplicate_listing_ids": [
+        "rec_0356",
+        "rec_0404"
+      ],
+      "group_size": 2,
+      "model_name": "I Kall S1",
+      "price": "9,499"
+    },
+    {
+      "representative_listing_id": "rec_0357",
+      "duplicate_listing_ids": [
+        "rec_0357",
+        "rec_0405"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S20 Plus",
+      "price": "39,990"
+    },
+    {
+      "representative_listing_id": "rec_0358",
+      "duplicate_listing_ids": [
+        "rec_0358",
+        "rec_0406"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y17s",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_0359",
+      "duplicate_listing_ids": [
+        "rec_0359",
+        "rec_0407"
+      ],
+      "group_size": 2,
+      "model_name": "vivo T3x 6GB RAM",
+      "price": "15,232"
+    },
+    {
+      "representative_listing_id": "rec_0360",
+      "duplicate_listing_ids": [
+        "rec_0360",
+        "rec_0408"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus Nord CE 3 Lite 5G 256GB",
+      "price": "17,668"
+    },
+    {
+      "representative_listing_id": "rec_0361",
+      "duplicate_listing_ids": [
+        "rec_0361",
+        "rec_0409"
+      ],
+      "group_size": 2,
+      "model_name": "Lava Blaze Curve 5G",
+      "price": "17,999"
+    },
+    {
+      "representative_listing_id": "rec_0362",
+      "duplicate_listing_ids": [
+        "rec_0362",
+        "rec_0410"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 9 Pro",
+      "price": "55,555"
+    },
+    {
+      "representative_listing_id": "rec_0363",
+      "duplicate_listing_ids": [
+        "rec_0363",
+        "rec_0411"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Camon 30 5G",
+      "price": "22,999"
+    },
+    {
+      "representative_listing_id": "rec_0364",
+      "duplicate_listing_ids": [
+        "rec_0364",
+        "rec_0412"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Neo 9 Pro 128GB",
+      "price": "34,999"
+    },
+    {
+      "representative_listing_id": "rec_0365",
+      "duplicate_listing_ids": [
+        "rec_0365",
+        "rec_0413"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno6 5G",
+      "price": "20,999"
+    },
+    {
+      "representative_listing_id": "rec_0366",
+      "duplicate_listing_ids": [
+        "rec_0366",
+        "rec_0414"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno8 T 5G",
+      "price": "38,999"
+    },
+    {
+      "representative_listing_id": "rec_0367",
+      "duplicate_listing_ids": [
+        "rec_0367",
+        "rec_0415"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V25 Pro 5G",
+      "price": "24,459"
+    },
+    {
+      "representative_listing_id": "rec_0368",
+      "duplicate_listing_ids": [
+        "rec_0368",
+        "rec_0416"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Z9 Lite 6GB RAM",
+      "price": "11,499"
+    },
+    {
+      "representative_listing_id": "rec_0369",
+      "duplicate_listing_ids": [
+        "rec_0369",
+        "rec_0417"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Note 40 Pro Plus 5G",
+      "price": "23,499"
+    },
+    {
+      "representative_listing_id": "rec_0370",
+      "duplicate_listing_ids": [
+        "rec_0370",
+        "rec_0418"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A23 5G",
+      "price": "20,999"
+    },
+    {
+      "representative_listing_id": "rec_0371",
+      "duplicate_listing_ids": [
+        "rec_0371",
+        "rec_0419"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 10 Pro",
+      "price": "14,790"
+    },
+    {
+      "representative_listing_id": "rec_0372",
+      "duplicate_listing_ids": [
+        "rec_0372",
+        "rec_0420"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M35 256GB",
+      "price": "24,499"
+    },
+    {
+      "representative_listing_id": "rec_0373",
+      "duplicate_listing_ids": [
+        "rec_0373",
+        "rec_0421"
+      ],
+      "group_size": 2,
+      "model_name": "Moto G04",
+      "price": "6,990"
+    },
+    {
+      "representative_listing_id": "rec_0374",
+      "duplicate_listing_ids": [
+        "rec_0374",
+        "rec_0422"
+      ],
+      "group_size": 2,
+      "model_name": "vivo T3x 8GB RAM",
+      "price": "16,499"
+    },
+    {
+      "representative_listing_id": "rec_0375",
+      "duplicate_listing_ids": [
+        "rec_0375",
+        "rec_0423"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno6 Pro 5G",
+      "price": "46,990"
+    },
+    {
+      "representative_listing_id": "rec_0376",
+      "duplicate_listing_ids": [
+        "rec_0376",
+        "rec_0424"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Note 20 Ultra 5G",
+      "price": "64,999"
+    },
+    {
+      "representative_listing_id": "rec_0377",
+      "duplicate_listing_ids": [
+        "rec_0377",
+        "rec_0425"
+      ],
+      "group_size": 2,
+      "model_name": "POCO X3 Pro",
+      "price": "18,999"
+    },
+    {
+      "representative_listing_id": "rec_0378",
+      "duplicate_listing_ids": [
+        "rec_0378",
+        "rec_0426"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno8 5G",
+      "price": "24,741"
+    },
+    {
+      "representative_listing_id": "rec_0379",
+      "duplicate_listing_ids": [
+        "rec_0379",
+        "rec_0427"
+      ],
+      "group_size": 2,
+      "model_name": "Itel Color Pro 5G",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_0380",
+      "duplicate_listing_ids": [
+        "rec_0380",
+        "rec_0428"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M31s",
+      "price": "15,468"
+    },
+    {
+      "representative_listing_id": "rec_0381",
+      "duplicate_listing_ids": [
+        "rec_0381",
+        "rec_0429"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 13 Pro Plus 5G World Champions Edition",
+      "price": "36,499"
+    },
+    {
+      "representative_listing_id": "rec_0382",
+      "duplicate_listing_ids": [
+        "rec_0382",
+        "rec_0430"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y36",
+      "price": "16,899"
+    },
+    {
+      "representative_listing_id": "rec_0383",
+      "duplicate_listing_ids": [
+        "rec_0383",
+        "rec_0431"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Z7s 5G",
+      "price": "14,918"
+    },
+    {
+      "representative_listing_id": "rec_0384",
+      "duplicate_listing_ids": [
+        "rec_0384",
+        "rec_0432"
+      ],
+      "group_size": 2,
+      "model_name": "realme 10",
+      "price": "10,359"
+    },
+    {
+      "representative_listing_id": "rec_0433",
+      "duplicate_listing_ids": [
+        "rec_0433",
+        "rec_0481"
+      ],
+      "group_size": 2,
+      "model_name": "Reliance JioPhone Next",
+      "price": "5,599"
+    },
+    {
+      "representative_listing_id": "rec_0434",
+      "duplicate_listing_ids": [
+        "rec_0434",
+        "rec_0482"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy F15 6GB RAM",
+      "price": "13,514"
+    },
+    {
+      "representative_listing_id": "rec_0435",
+      "duplicate_listing_ids": [
+        "rec_0435",
+        "rec_0483"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Note 10 Plus (Galaxy Note 10 Pro)",
+      "price": "49,500"
+    },
+    {
+      "representative_listing_id": "rec_0436",
+      "duplicate_listing_ids": [
+        "rec_0436",
+        "rec_0484"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Spark 9",
+      "price": "6,699"
+    },
+    {
+      "representative_listing_id": "rec_0437",
+      "duplicate_listing_ids": [
+        "rec_0437",
+        "rec_0485"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus Nord CE 2 5G",
+      "price": "23,789"
+    },
+    {
+      "representative_listing_id": "rec_0438",
+      "duplicate_listing_ids": [
+        "rec_0438",
+        "rec_0486"
+      ],
+      "group_size": 2,
+      "model_name": "realme GT 5G",
+      "price": "19,999"
+    },
+    {
+      "representative_listing_id": "rec_0439",
+      "duplicate_listing_ids": [
+        "rec_0439",
+        "rec_0487"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 14 Pro",
+      "price": "99,999"
+    },
+    {
+      "representative_listing_id": "rec_0440",
+      "duplicate_listing_ids": [
+        "rec_0440",
+        "rec_0488"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 12 4G",
+      "price": "13,000"
+    },
+    {
+      "representative_listing_id": "rec_0441",
+      "duplicate_listing_ids": [
+        "rec_0441",
+        "rec_0489"
+      ],
+      "group_size": 2,
+      "model_name": "POCO X6 Neo 256GB",
+      "price": "15,080"
+    },
+    {
+      "representative_listing_id": "rec_0442",
+      "duplicate_listing_ids": [
+        "rec_0442",
+        "rec_0490"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y100",
+      "price": "23,999"
+    },
+    {
+      "representative_listing_id": "rec_0443",
+      "duplicate_listing_ids": [
+        "rec_0443",
+        "rec_0491"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V30e 256GB",
+      "price": "29,740"
+    },
+    {
+      "representative_listing_id": "rec_0444",
+      "duplicate_listing_ids": [
+        "rec_0444",
+        "rec_0492"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S22 Plus",
+      "price": "52,999"
+    },
+    {
+      "representative_listing_id": "rec_0445",
+      "duplicate_listing_ids": [
+        "rec_0445",
+        "rec_0493"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 13 Pro Max",
+      "price": "103,990"
+    },
+    {
+      "representative_listing_id": "rec_0446",
+      "duplicate_listing_ids": [
+        "rec_0446",
+        "rec_0494"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 12 512GB",
+      "price": "64,999"
+    },
+    {
+      "representative_listing_id": "rec_0447",
+      "duplicate_listing_ids": [
+        "rec_0447",
+        "rec_0495"
+      ],
+      "group_size": 2,
+      "model_name": "POCO X5",
+      "price": "13,490"
+    },
+    {
+      "representative_listing_id": "rec_0448",
+      "duplicate_listing_ids": [
+        "rec_0448",
+        "rec_0496"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Pop 8",
+      "price": "6,699"
+    },
+    {
+      "representative_listing_id": "rec_0449",
+      "duplicate_listing_ids": [
+        "rec_0449",
+        "rec_0497"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy F23 5G",
+      "price": "13,930"
+    },
+    {
+      "representative_listing_id": "rec_0450",
+      "duplicate_listing_ids": [
+        "rec_0450",
+        "rec_0498"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Z Flip 3",
+      "price": "44,900"
+    },
+    {
+      "representative_listing_id": "rec_0451",
+      "duplicate_listing_ids": [
+        "rec_0451",
+        "rec_0499"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO F19 Pro+ 5G",
+      "price": "16,990"
+    },
+    {
+      "representative_listing_id": "rec_0452",
+      "duplicate_listing_ids": [
+        "rec_0452",
+        "rec_0500"
+      ],
+      "group_size": 2,
+      "model_name": "realme GT Neo 3 5G",
+      "price": "24,900"
+    },
+    {
+      "representative_listing_id": "rec_0453",
+      "duplicate_listing_ids": [
+        "rec_0453",
+        "rec_0501"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi 13 Pro",
+      "price": "86,045"
+    },
+    {
+      "representative_listing_id": "rec_0454",
+      "duplicate_listing_ids": [
+        "rec_0454",
+        "rec_0502"
+      ],
+      "group_size": 2,
+      "model_name": "vivo X90 Pro",
+      "price": "67,999"
+    },
+    {
+      "representative_listing_id": "rec_0455",
+      "duplicate_listing_ids": [
+        "rec_0455",
+        "rec_0503"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 10S",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_0456",
+      "duplicate_listing_ids": [
+        "rec_0456",
+        "rec_0504"
+      ],
+      "group_size": 2,
+      "model_name": "Itel P55 5G",
+      "price": "8,945"
+    },
+    {
+      "representative_listing_id": "rec_0457",
+      "duplicate_listing_ids": [
+        "rec_0457",
+        "rec_0505"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A59 5G",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_0458",
+      "duplicate_listing_ids": [
+        "rec_0458",
+        "rec_0506"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Mi 11X",
+      "price": "22,990"
+    },
+    {
+      "representative_listing_id": "rec_0459",
+      "duplicate_listing_ids": [
+        "rec_0459",
+        "rec_0507"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy F14 5G 6GB RAM",
+      "price": "12,990"
+    },
+    {
+      "representative_listing_id": "rec_0460",
+      "duplicate_listing_ids": [
+        "rec_0460",
+        "rec_0508"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus Nord CE 4 Lite 5G 256GB",
+      "price": "22,998"
+    },
+    {
+      "representative_listing_id": "rec_0461",
+      "duplicate_listing_ids": [
+        "rec_0461",
+        "rec_0509"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Mi 11i",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_0462",
+      "duplicate_listing_ids": [
+        "rec_0462",
+        "rec_0510"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Z9x 8GB RAM",
+      "price": "15,998"
+    },
+    {
+      "representative_listing_id": "rec_0463",
+      "duplicate_listing_ids": [
+        "rec_0463",
+        "rec_0511"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A35 256GB",
+      "price": "27,749"
+    },
+    {
+      "representative_listing_id": "rec_0464",
+      "duplicate_listing_ids": [
+        "rec_0464",
+        "rec_0512"
+      ],
+      "group_size": 2,
+      "model_name": "Nokia G42 4GB RAM",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_0465",
+      "duplicate_listing_ids": [
+        "rec_0465",
+        "rec_0513"
+      ],
+      "group_size": 2,
+      "model_name": "POCO F6 512GB",
+      "price": "34,999"
+    },
+    {
+      "representative_listing_id": "rec_0466",
+      "duplicate_listing_ids": [
+        "rec_0466",
+        "rec_0514"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo 60X 5G",
+      "price": "10,805"
+    },
+    {
+      "representative_listing_id": "rec_0467",
+      "duplicate_listing_ids": [
+        "rec_0467",
+        "rec_0515"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V23 Pro 5G",
+      "price": "27,895"
+    },
+    {
+      "representative_listing_id": "rec_0468",
+      "duplicate_listing_ids": [
+        "rec_0468",
+        "rec_0516"
+      ],
+      "group_size": 2,
+      "model_name": "realme GT 6 512GB",
+      "price": "44,999"
+    },
+    {
+      "representative_listing_id": "rec_0469",
+      "duplicate_listing_ids": [
+        "rec_0469",
+        "rec_0517"
+      ],
+      "group_size": 2,
+      "model_name": "realme P1 Pro 256GB",
+      "price": "19,489"
+    },
+    {
+      "representative_listing_id": "rec_0470",
+      "duplicate_listing_ids": [
+        "rec_0470",
+        "rec_0518"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A54",
+      "price": "10,294"
+    },
+    {
+      "representative_listing_id": "rec_0471",
+      "duplicate_listing_ids": [
+        "rec_0471",
+        "rec_0519"
+      ],
+      "group_size": 2,
+      "model_name": "POCO X3",
+      "price": "14,200"
+    },
+    {
+      "representative_listing_id": "rec_0472",
+      "duplicate_listing_ids": [
+        "rec_0472",
+        "rec_0520"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy F62",
+      "price": "10,999"
+    },
+    {
+      "representative_listing_id": "rec_0473",
+      "duplicate_listing_ids": [
+        "rec_0473",
+        "rec_0521"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Z Fold5",
+      "price": "164,999"
+    },
+    {
+      "representative_listing_id": "rec_0474",
+      "duplicate_listing_ids": [
+        "rec_0474",
+        "rec_0522"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi A2 2023 64GB",
+      "price": "5,999"
+    },
+    {
+      "representative_listing_id": "rec_0475",
+      "duplicate_listing_ids": [
+        "rec_0475",
+        "rec_0523"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Camon 30 Premier 5G",
+      "price": "39,999"
+    },
+    {
+      "representative_listing_id": "rec_0476",
+      "duplicate_listing_ids": [
+        "rec_0476",
+        "rec_0524"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A16",
+      "price": "10,499"
+    },
+    {
+      "representative_listing_id": "rec_0477",
+      "duplicate_listing_ids": [
+        "rec_0477",
+        "rec_0525"
+      ],
+      "group_size": 2,
+      "model_name": "vivo T1",
+      "price": "15,990"
+    },
+    {
+      "representative_listing_id": "rec_0478",
+      "duplicate_listing_ids": [
+        "rec_0478",
+        "rec_0526"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus Nord CE 5G",
+      "price": "22,989"
+    },
+    {
+      "representative_listing_id": "rec_0479",
+      "duplicate_listing_ids": [
+        "rec_0479",
+        "rec_0527"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A73 5G",
+      "price": "30,399"
+    },
+    {
+      "representative_listing_id": "rec_0480",
+      "duplicate_listing_ids": [
+        "rec_0480",
+        "rec_0528"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A33 5G",
+      "price": "25,999"
+    },
+    {
+      "representative_listing_id": "rec_0529",
+      "duplicate_listing_ids": [
+        "rec_0529",
+        "rec_0577"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S23 FE 5G 256GB",
+      "price": "38,969"
+    },
+    {
+      "representative_listing_id": "rec_0530",
+      "duplicate_listing_ids": [
+        "rec_0530",
+        "rec_0578"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi A3",
+      "price": "6,999"
+    },
+    {
+      "representative_listing_id": "rec_0531",
+      "duplicate_listing_ids": [
+        "rec_0531",
+        "rec_0579"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M51",
+      "price": "11,499"
+    },
+    {
+      "representative_listing_id": "rec_0532",
+      "duplicate_listing_ids": [
+        "rec_0532",
+        "rec_0580"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M34 8GB RAM",
+      "price": "16,372"
+    },
+    {
+      "representative_listing_id": "rec_0533",
+      "duplicate_listing_ids": [
+        "rec_0533",
+        "rec_0581"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi K50i",
+      "price": "26,999"
+    },
+    {
+      "representative_listing_id": "rec_0534",
+      "duplicate_listing_ids": [
+        "rec_0534",
+        "rec_0582"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A55 12GB RAM",
+      "price": "41,999"
+    },
+    {
+      "representative_listing_id": "rec_0535",
+      "duplicate_listing_ids": [
+        "rec_0535",
+        "rec_0583"
+      ],
+      "group_size": 2,
+      "model_name": "Itel A70",
+      "price": "6,499"
+    },
+    {
+      "representative_listing_id": "rec_0536",
+      "duplicate_listing_ids": [
+        "rec_0536",
+        "rec_0584"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 13 Pro",
+      "price": "99,900"
+    },
+    {
+      "representative_listing_id": "rec_0537",
+      "duplicate_listing_ids": [
+        "rec_0537",
+        "rec_0585"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno5 Pro 5G",
+      "price": "22,990"
+    },
+    {
+      "representative_listing_id": "rec_0538",
+      "duplicate_listing_ids": [
+        "rec_0538",
+        "rec_0586"
+      ],
+      "group_size": 2,
+      "model_name": "POCO M4 Pro",
+      "price": "10,668"
+    },
+    {
+      "representative_listing_id": "rec_0539",
+      "duplicate_listing_ids": [
+        "rec_0539",
+        "rec_0587"
+      ],
+      "group_size": 2,
+      "model_name": "POCO M6 Plus 8GB RAM",
+      "price": "14,499"
+    },
+    {
+      "representative_listing_id": "rec_0540",
+      "duplicate_listing_ids": [
+        "rec_0540",
+        "rec_0588"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S10e",
+      "price": "26,999"
+    },
+    {
+      "representative_listing_id": "rec_0541",
+      "duplicate_listing_ids": [
+        "rec_0541",
+        "rec_0589"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M35 8GB RAM",
+      "price": "21,499"
+    },
+    {
+      "representative_listing_id": "rec_0542",
+      "duplicate_listing_ids": [
+        "rec_0542",
+        "rec_0590"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy F55 5G 12GB RAM",
+      "price": "30,999"
+    },
+    {
+      "representative_listing_id": "rec_0543",
+      "duplicate_listing_ids": [
+        "rec_0543",
+        "rec_0591"
+      ],
+      "group_size": 2,
+      "model_name": "Lava Blaze X 6GB RAM",
+      "price": "15,999"
+    },
+    {
+      "representative_listing_id": "rec_0544",
+      "duplicate_listing_ids": [
+        "rec_0544",
+        "rec_0592"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y56",
+      "price": "19,945"
+    },
+    {
+      "representative_listing_id": "rec_0545",
+      "duplicate_listing_ids": [
+        "rec_0545",
+        "rec_0593"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M15 6GB RAM",
+      "price": "14,499"
+    },
+    {
+      "representative_listing_id": "rec_0546",
+      "duplicate_listing_ids": [
+        "rec_0546",
+        "rec_0594"
+      ],
+      "group_size": 2,
+      "model_name": "Motorola Edge Plus",
+      "price": "49,999"
+    },
+    {
+      "representative_listing_id": "rec_0547",
+      "duplicate_listing_ids": [
+        "rec_0547",
+        "rec_0595"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO F21 Pro 5G",
+      "price": "17,999"
+    },
+    {
+      "representative_listing_id": "rec_0548",
+      "duplicate_listing_ids": [
+        "rec_0548",
+        "rec_0596"
+      ],
+      "group_size": 2,
+      "model_name": "vivo S1",
+      "price": "17,200"
+    },
+    {
+      "representative_listing_id": "rec_0549",
+      "duplicate_listing_ids": [
+        "rec_0549",
+        "rec_0597"
+      ],
+      "group_size": 2,
+      "model_name": "Moto G54 256GB",
+      "price": "16,999"
+    },
+    {
+      "representative_listing_id": "rec_0550",
+      "duplicate_listing_ids": [
+        "rec_0550",
+        "rec_0598"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Z Fold 4 5G",
+      "price": "119,999"
+    },
+    {
+      "representative_listing_id": "rec_0551",
+      "duplicate_listing_ids": [
+        "rec_0551",
+        "rec_0599"
+      ],
+      "group_size": 2,
+      "model_name": "realme 12 Plus 256GB",
+      "price": "17,890"
+    },
+    {
+      "representative_listing_id": "rec_0552",
+      "duplicate_listing_ids": [
+        "rec_0552",
+        "rec_0600"
+      ],
+      "group_size": 2,
+      "model_name": "POCO F4 5G",
+      "price": "17,990"
+    },
+    {
+      "representative_listing_id": "rec_0553",
+      "duplicate_listing_ids": [
+        "rec_0553",
+        "rec_0601"
+      ],
+      "group_size": 2,
+      "model_name": "Motorola Razr 40",
+      "price": "33,749"
+    },
+    {
+      "representative_listing_id": "rec_0554",
+      "duplicate_listing_ids": [
+        "rec_0554",
+        "rec_0602"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y21 2021",
+      "price": "10,999"
+    },
+    {
+      "representative_listing_id": "rec_0555",
+      "duplicate_listing_ids": [
+        "rec_0555",
+        "rec_0603"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y28 5G 8GB RAM",
+      "price": "16,999"
+    },
+    {
+      "representative_listing_id": "rec_0556",
+      "duplicate_listing_ids": [
+        "rec_0556",
+        "rec_0604"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Neo 9 Pro 12GB RAM",
+      "price": "38,999"
+    },
+    {
+      "representative_listing_id": "rec_0557",
+      "duplicate_listing_ids": [
+        "rec_0557",
+        "rec_0605"
+      ],
+      "group_size": 2,
+      "model_name": "realme 12x 6GB RAM",
+      "price": "12,597"
+    },
+    {
+      "representative_listing_id": "rec_0558",
+      "duplicate_listing_ids": [
+        "rec_0558",
+        "rec_0606"
+      ],
+      "group_size": 2,
+      "model_name": "Itel A05s",
+      "price": "5,749"
+    },
+    {
+      "representative_listing_id": "rec_0559",
+      "duplicate_listing_ids": [
+        "rec_0559",
+        "rec_0607"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 10",
+      "price": "11,599"
+    },
+    {
+      "representative_listing_id": "rec_0560",
+      "duplicate_listing_ids": [
+        "rec_0560",
+        "rec_0608"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S23 5G 256GB",
+      "price": "53,340"
+    },
+    {
+      "representative_listing_id": "rec_0561",
+      "duplicate_listing_ids": [
+        "rec_0561",
+        "rec_0609"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO 7",
+      "price": "22,990"
+    },
+    {
+      "representative_listing_id": "rec_0562",
+      "duplicate_listing_ids": [
+        "rec_0562",
+        "rec_0610"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO F23",
+      "price": "22,698"
+    },
+    {
+      "representative_listing_id": "rec_0563",
+      "duplicate_listing_ids": [
+        "rec_0563",
+        "rec_0611"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi 14 Civi 512GB",
+      "price": "43,600"
+    },
+    {
+      "representative_listing_id": "rec_0564",
+      "duplicate_listing_ids": [
+        "rec_0564",
+        "rec_0612"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy F34 8GB RAM",
+      "price": "15,499"
+    },
+    {
+      "representative_listing_id": "rec_0565",
+      "duplicate_listing_ids": [
+        "rec_0565",
+        "rec_0613"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo 70 Pro 256GB",
+      "price": "18,998"
+    },
+    {
+      "representative_listing_id": "rec_0566",
+      "duplicate_listing_ids": [
+        "rec_0566",
+        "rec_0614"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 8 Pro",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_0567",
+      "duplicate_listing_ids": [
+        "rec_0567",
+        "rec_0615"
+      ],
+      "group_size": 2,
+      "model_name": "POCO F6 12GB RAM",
+      "price": "29,899"
+    },
+    {
+      "representative_listing_id": "rec_0568",
+      "duplicate_listing_ids": [
+        "rec_0568",
+        "rec_0616"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y28 5G 6GB RAM",
+      "price": "15,494"
+    },
+    {
+      "representative_listing_id": "rec_0569",
+      "duplicate_listing_ids": [
+        "rec_0569",
+        "rec_0617"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S21 256GB",
+      "price": "31,999"
+    },
+    {
+      "representative_listing_id": "rec_0570",
+      "duplicate_listing_ids": [
+        "rec_0570",
+        "rec_0618"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V20",
+      "price": "15,239"
+    },
+    {
+      "representative_listing_id": "rec_0571",
+      "duplicate_listing_ids": [
+        "rec_0571",
+        "rec_0619"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 12R 8GB RAM",
+      "price": "41,999"
+    },
+    {
+      "representative_listing_id": "rec_0572",
+      "duplicate_listing_ids": [
+        "rec_0572",
+        "rec_0620"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S24 Plus 5G 512GB",
+      "price": "109,999"
+    },
+    {
+      "representative_listing_id": "rec_0573",
+      "duplicate_listing_ids": [
+        "rec_0573",
+        "rec_0621"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Note 9",
+      "price": "35,999"
+    },
+    {
+      "representative_listing_id": "rec_0574",
+      "duplicate_listing_ids": [
+        "rec_0574",
+        "rec_0622"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S10 Plus",
+      "price": "36,990"
+    },
+    {
+      "representative_listing_id": "rec_0575",
+      "duplicate_listing_ids": [
+        "rec_0575",
+        "rec_0623"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Neo 6 5G",
+      "price": "24,995"
+    },
+    {
+      "representative_listing_id": "rec_0576",
+      "duplicate_listing_ids": [
+        "rec_0576",
+        "rec_0624"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y19",
+      "price": "14,990"
+    },
+    {
+      "representative_listing_id": "rec_0913",
+      "duplicate_listing_ids": [
+        "rec_0913",
+        "rec_0961"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Hot 12 Pro 128GB",
+      "price": "12,999"
+    },
+    {
+      "representative_listing_id": "rec_0914",
+      "duplicate_listing_ids": [
+        "rec_0914",
+        "rec_0962"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Spark 10 5G 256GB",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_0915",
+      "duplicate_listing_ids": [
+        "rec_0915",
+        "rec_0963"
+      ],
+      "group_size": 2,
+      "model_name": "I Kall Z19 Pro Ultra",
+      "price": "7,297"
+    },
+    {
+      "representative_listing_id": "rec_0916",
+      "duplicate_listing_ids": [
+        "rec_0916",
+        "rec_0964"
+      ],
+      "group_size": 2,
+      "model_name": "Blackberry Classic",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_0917",
+      "duplicate_listing_ids": [
+        "rec_0917",
+        "rec_0965"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y91",
+      "price": "8,990"
+    },
+    {
+      "representative_listing_id": "rec_0918",
+      "duplicate_listing_ids": [
+        "rec_0918",
+        "rec_0966"
+      ],
+      "group_size": 2,
+      "model_name": "Google Pixel 3A",
+      "price": "16,999"
+    },
+    {
+      "representative_listing_id": "rec_0919",
+      "duplicate_listing_ids": [
+        "rec_0919",
+        "rec_0967"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno 2F",
+      "price": "18,990"
+    },
+    {
+      "representative_listing_id": "rec_0920",
+      "duplicate_listing_ids": [
+        "rec_0920",
+        "rec_0968"
+      ],
+      "group_size": 2,
+      "model_name": "vivo U10",
+      "price": "8,990"
+    },
+    {
+      "representative_listing_id": "rec_0921",
+      "duplicate_listing_ids": [
+        "rec_0921",
+        "rec_0969"
+      ],
+      "group_size": 2,
+      "model_name": "realme C3",
+      "price": "6,999"
+    },
+    {
+      "representative_listing_id": "rec_0922",
+      "duplicate_listing_ids": [
+        "rec_0922",
+        "rec_0970"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 9A 3GB RAM",
+      "price": "8,199"
+    },
+    {
+      "representative_listing_id": "rec_0923",
+      "duplicate_listing_ids": [
+        "rec_0923",
+        "rec_0971"
+      ],
+      "group_size": 2,
+      "model_name": "LG W11",
+      "price": "7,990"
+    },
+    {
+      "representative_listing_id": "rec_0924",
+      "duplicate_listing_ids": [
+        "rec_0924",
+        "rec_0972"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Pova 2",
+      "price": "8,819"
+    },
+    {
+      "representative_listing_id": "rec_0925",
+      "duplicate_listing_ids": [
+        "rec_0925",
+        "rec_0973"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Z Flip5 512GB",
+      "price": "109,999"
+    },
+    {
+      "representative_listing_id": "rec_0926",
+      "duplicate_listing_ids": [
+        "rec_0926",
+        "rec_0974"
+      ],
+      "group_size": 2,
+      "model_name": "Nothing Phone 2a 256GB",
+      "price": "25,599"
+    },
+    {
+      "representative_listing_id": "rec_0927",
+      "duplicate_listing_ids": [
+        "rec_0927",
+        "rec_0975"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone XS Max 512GB",
+      "price": "144,900"
+    },
+    {
+      "representative_listing_id": "rec_0928",
+      "duplicate_listing_ids": [
+        "rec_0928",
+        "rec_0976"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO K1",
+      "price": "10,000"
+    },
+    {
+      "representative_listing_id": "rec_0929",
+      "duplicate_listing_ids": [
+        "rec_0929",
+        "rec_0977"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone XS 256GB",
+      "price": "103,900"
+    },
+    {
+      "representative_listing_id": "rec_0930",
+      "duplicate_listing_ids": [
+        "rec_0930",
+        "rec_0978"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y91i",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_0931",
+      "duplicate_listing_ids": [
+        "rec_0931",
+        "rec_0979"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A15s",
+      "price": "9,394"
+    },
+    {
+      "representative_listing_id": "rec_0932",
+      "duplicate_listing_ids": [
+        "rec_0932",
+        "rec_0980"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y72 5G",
+      "price": "14,994"
+    },
+    {
+      "representative_listing_id": "rec_0933",
+      "duplicate_listing_ids": [
+        "rec_0933",
+        "rec_0981"
+      ],
+      "group_size": 2,
+      "model_name": "realme C25s",
+      "price": "7,990"
+    },
+    {
+      "representative_listing_id": "rec_0934",
+      "duplicate_listing_ids": [
+        "rec_0934",
+        "rec_0982"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Note 10 128GB",
+      "price": "12,499"
+    },
+    {
+      "representative_listing_id": "rec_0935",
+      "duplicate_listing_ids": [
+        "rec_0935",
+        "rec_0983"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A03",
+      "price": "9,490"
+    },
+    {
+      "representative_listing_id": "rec_0936",
+      "duplicate_listing_ids": [
+        "rec_0936",
+        "rec_0984"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A77 2022 128GB",
+      "price": "11,999"
+    },
+    {
+      "representative_listing_id": "rec_0937",
+      "duplicate_listing_ids": [
+        "rec_0937",
+        "rec_0985"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 14 Plus 512GB",
+      "price": "89,999"
+    },
+    {
+      "representative_listing_id": "rec_0938",
+      "duplicate_listing_ids": [
+        "rec_0938",
+        "rec_0986"
+      ],
+      "group_size": 2,
+      "model_name": "Itel S23",
+      "price": "8,489"
+    },
+    {
+      "representative_listing_id": "rec_0939",
+      "duplicate_listing_ids": [
+        "rec_0939",
+        "rec_0987"
+      ],
+      "group_size": 2,
+      "model_name": "Ulefone Power Armor 18T Ultra",
+      "price": "68,000"
+    },
+    {
+      "representative_listing_id": "rec_0940",
+      "duplicate_listing_ids": [
+        "rec_0940",
+        "rec_0988"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo N65 5G 8GB RAM",
+      "price": "13,499"
+    },
+    {
+      "representative_listing_id": "rec_0941",
+      "duplicate_listing_ids": [
+        "rec_0941",
+        "rec_0989"
+      ],
+      "group_size": 2,
+      "model_name": "XOLO Q3000",
+      "price": "15,399"
+    },
+    {
+      "representative_listing_id": "rec_0942",
+      "duplicate_listing_ids": [
+        "rec_0942",
+        "rec_0990"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S8",
+      "price": "49,990"
+    },
+    {
+      "representative_listing_id": "rec_0943",
+      "duplicate_listing_ids": [
+        "rec_0943",
+        "rec_0991"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO F7",
+      "price": "21,990"
+    },
+    {
+      "representative_listing_id": "rec_0944",
+      "duplicate_listing_ids": [
+        "rec_0944",
+        "rec_0992"
+      ],
+      "group_size": 2,
+      "model_name": "realme 5i",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_0945",
+      "duplicate_listing_ids": [
+        "rec_0945",
+        "rec_0993"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 9 Prime 128GB",
+      "price": "12,990"
+    },
+    {
+      "representative_listing_id": "rec_0946",
+      "duplicate_listing_ids": [
+        "rec_0946",
+        "rec_0994"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 9i",
+      "price": "8,990"
+    },
+    {
+      "representative_listing_id": "rec_0947",
+      "duplicate_listing_ids": [
+        "rec_0947",
+        "rec_0995"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy F12",
+      "price": "11,499"
+    },
+    {
+      "representative_listing_id": "rec_0948",
+      "duplicate_listing_ids": [
+        "rec_0948",
+        "rec_0996"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A55 4G",
+      "price": "12,000"
+    },
+    {
+      "representative_listing_id": "rec_0949",
+      "duplicate_listing_ids": [
+        "rec_0949",
+        "rec_0997"
+      ],
+      "group_size": 2,
+      "model_name": "realme C25Y",
+      "price": "8,750"
+    },
+    {
+      "representative_listing_id": "rec_0950",
+      "duplicate_listing_ids": [
+        "rec_0950",
+        "rec_0998"
+      ],
+      "group_size": 2,
+      "model_name": "Lenovo K6 Power 32GB",
+      "price": "10,965"
+    },
+    {
+      "representative_listing_id": "rec_0951",
+      "duplicate_listing_ids": [
+        "rec_0951",
+        "rec_0999"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Mi 11T Pro 5G 12GB RAM",
+      "price": "49,990"
+    },
+    {
+      "representative_listing_id": "rec_0952",
+      "duplicate_listing_ids": [
+        "rec_0952",
+        "rec_1000"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO K10 5G",
+      "price": "15,499"
+    },
+    {
+      "representative_listing_id": "rec_0953",
+      "duplicate_listing_ids": [
+        "rec_0953",
+        "rec_1001"
+      ],
+      "group_size": 2,
+      "model_name": "vivo T1 44W",
+      "price": "14,490"
+    },
+    {
+      "representative_listing_id": "rec_0954",
+      "duplicate_listing_ids": [
+        "rec_0954",
+        "rec_1002"
+      ],
+      "group_size": 2,
+      "model_name": "realme C33",
+      "price": "6,999"
+    },
+    {
+      "representative_listing_id": "rec_0955",
+      "duplicate_listing_ids": [
+        "rec_0955",
+        "rec_1003"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Z6 Lite 5G",
+      "price": "13,699"
+    },
+    {
+      "representative_listing_id": "rec_0956",
+      "duplicate_listing_ids": [
+        "rec_0956",
+        "rec_1004"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V27 256GB",
+      "price": "27,749"
+    },
+    {
+      "representative_listing_id": "rec_0957",
+      "duplicate_listing_ids": [
+        "rec_0957",
+        "rec_1005"
+      ],
+      "group_size": 2,
+      "model_name": "I Kall S1 Pro",
+      "price": "9,499"
+    },
+    {
+      "representative_listing_id": "rec_0958",
+      "duplicate_listing_ids": [
+        "rec_0958",
+        "rec_1006"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V29 Pro 12GB RAM",
+      "price": "39,999"
+    },
+    {
+      "representative_listing_id": "rec_0959",
+      "duplicate_listing_ids": [
+        "rec_0959",
+        "rec_1007"
+      ],
+      "group_size": 2,
+      "model_name": "Gionee S6 Pro",
+      "price": "9,499"
+    },
+    {
+      "representative_listing_id": "rec_0960",
+      "duplicate_listing_ids": [
+        "rec_0960",
+        "rec_1008"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo N65 5G 6GB RAM",
+      "price": "12,498"
+    },
+    {
+      "representative_listing_id": "rec_1009",
+      "duplicate_listing_ids": [
+        "rec_1009",
+        "rec_1057"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y15",
+      "price": "6,540"
+    },
+    {
+      "representative_listing_id": "rec_1010",
+      "duplicate_listing_ids": [
+        "rec_1010",
+        "rec_1058"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 8",
+      "price": "39,900"
+    },
+    {
+      "representative_listing_id": "rec_1011",
+      "duplicate_listing_ids": [
+        "rec_1011",
+        "rec_1059"
+      ],
+      "group_size": 2,
+      "model_name": "Sony Xperia XZ Premium",
+      "price": "49,990"
+    },
+    {
+      "representative_listing_id": "rec_1012",
+      "duplicate_listing_ids": [
+        "rec_1012",
+        "rec_1060"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy On Nxt 64GB",
+      "price": "6,999"
+    },
+    {
+      "representative_listing_id": "rec_1013",
+      "duplicate_listing_ids": [
+        "rec_1013",
+        "rec_1061"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Mi A2",
+      "price": "12,999"
+    },
+    {
+      "representative_listing_id": "rec_1014",
+      "duplicate_listing_ids": [
+        "rec_1014",
+        "rec_1062"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y81i",
+      "price": "10,990"
+    },
+    {
+      "representative_listing_id": "rec_1015",
+      "duplicate_listing_ids": [
+        "rec_1015",
+        "rec_1063"
+      ],
+      "group_size": 2,
+      "model_name": "realme 3 Pro",
+      "price": "11,990"
+    },
+    {
+      "representative_listing_id": "rec_1016",
+      "duplicate_listing_ids": [
+        "rec_1016",
+        "rec_1064"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 7",
+      "price": "9,990"
+    },
+    {
+      "representative_listing_id": "rec_1017",
+      "duplicate_listing_ids": [
+        "rec_1017",
+        "rec_1065"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V15",
+      "price": "21,599"
+    },
+    {
+      "representative_listing_id": "rec_1018",
+      "duplicate_listing_ids": [
+        "rec_1018",
+        "rec_1066"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Find X2",
+      "price": "49,900"
+    },
+    {
+      "representative_listing_id": "rec_1019",
+      "duplicate_listing_ids": [
+        "rec_1019",
+        "rec_1067"
+      ],
+      "group_size": 2,
+      "model_name": "Google Pixel 3A XL",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_1020",
+      "duplicate_listing_ids": [
+        "rec_1020",
+        "rec_1068"
+      ],
+      "group_size": 2,
+      "model_name": "realme C2 32GB",
+      "price": "6,999"
+    },
+    {
+      "representative_listing_id": "rec_1021",
+      "duplicate_listing_ids": [
+        "rec_1021",
+        "rec_1069"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y91 3GB RAM",
+      "price": "9,990"
+    },
+    {
+      "representative_listing_id": "rec_1022",
+      "duplicate_listing_ids": [
+        "rec_1022",
+        "rec_1070"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 7A 32GB",
+      "price": "6,450"
+    },
+    {
+      "representative_listing_id": "rec_1023",
+      "duplicate_listing_ids": [
+        "rec_1023",
+        "rec_1071"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M30 32GB",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_1024",
+      "duplicate_listing_ids": [
+        "rec_1024",
+        "rec_1072"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Note 10 Lite",
+      "price": "24,999"
+    },
+    {
+      "representative_listing_id": "rec_1025",
+      "duplicate_listing_ids": [
+        "rec_1025",
+        "rec_1073"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A72",
+      "price": "24,999"
+    },
+    {
+      "representative_listing_id": "rec_1026",
+      "duplicate_listing_ids": [
+        "rec_1026",
+        "rec_1074"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Mi 10 256GB",
+      "price": "41,990"
+    },
+    {
+      "representative_listing_id": "rec_1027",
+      "duplicate_listing_ids": [
+        "rec_1027",
+        "rec_1075"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 9 Pro Max 128GB",
+      "price": "16,999"
+    },
+    {
+      "representative_listing_id": "rec_1028",
+      "duplicate_listing_ids": [
+        "rec_1028",
+        "rec_1076"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 8T 256GB",
+      "price": "38,999"
+    },
+    {
+      "representative_listing_id": "rec_1029",
+      "duplicate_listing_ids": [
+        "rec_1029",
+        "rec_1077"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y20G",
+      "price": "14,990"
+    },
+    {
+      "representative_listing_id": "rec_1030",
+      "duplicate_listing_ids": [
+        "rec_1030",
+        "rec_1078"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A32 4G",
+      "price": "13,999"
+    },
+    {
+      "representative_listing_id": "rec_1031",
+      "duplicate_listing_ids": [
+        "rec_1031",
+        "rec_1079"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy F62 8GB RAM",
+      "price": "25,999"
+    },
+    {
+      "representative_listing_id": "rec_1032",
+      "duplicate_listing_ids": [
+        "rec_1032",
+        "rec_1080"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M42 5G 8GB RAM",
+      "price": "18,990"
+    },
+    {
+      "representative_listing_id": "rec_1033",
+      "duplicate_listing_ids": [
+        "rec_1033",
+        "rec_1081"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 10A",
+      "price": "8,490"
+    },
+    {
+      "representative_listing_id": "rec_1034",
+      "duplicate_listing_ids": [
+        "rec_1034",
+        "rec_1082"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V21e 5G",
+      "price": "19,594"
+    },
+    {
+      "representative_listing_id": "rec_1035",
+      "duplicate_listing_ids": [
+        "rec_1035",
+        "rec_1083"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M32 128GB",
+      "price": "15,399"
+    },
+    {
+      "representative_listing_id": "rec_1036",
+      "duplicate_listing_ids": [
+        "rec_1036",
+        "rec_1084"
+      ],
+      "group_size": 2,
+      "model_name": "Motorola Edge 20 Fusion 8GB RAM",
+      "price": "17,990"
+    },
+    {
+      "representative_listing_id": "rec_1037",
+      "duplicate_listing_ids": [
+        "rec_1037",
+        "rec_1085"
+      ],
+      "group_size": 2,
+      "model_name": "POCO F1 Armoured Edition 128GB",
+      "price": "24,999"
+    },
+    {
+      "representative_listing_id": "rec_1038",
+      "duplicate_listing_ids": [
+        "rec_1038",
+        "rec_1086"
+      ],
+      "group_size": 2,
+      "model_name": "Blackberry KEYone Limited Edition Black",
+      "price": "25,999"
+    },
+    {
+      "representative_listing_id": "rec_1039",
+      "duplicate_listing_ids": [
+        "rec_1039",
+        "rec_1087"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno7",
+      "price": "23,494"
+    },
+    {
+      "representative_listing_id": "rec_1040",
+      "duplicate_listing_ids": [
+        "rec_1040",
+        "rec_1088"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y15s 2021",
+      "price": "7,999"
+    },
+    {
+      "representative_listing_id": "rec_1041",
+      "duplicate_listing_ids": [
+        "rec_1041",
+        "rec_1089"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 11S",
+      "price": "11,999"
+    },
+    {
+      "representative_listing_id": "rec_1042",
+      "duplicate_listing_ids": [
+        "rec_1042",
+        "rec_1090"
+      ],
+      "group_size": 2,
+      "model_name": "Motorola Edge 30",
+      "price": "24,999"
+    },
+    {
+      "representative_listing_id": "rec_1043",
+      "duplicate_listing_ids": [
+        "rec_1043",
+        "rec_1091"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO 11 5G",
+      "price": "42,999"
+    },
+    {
+      "representative_listing_id": "rec_1044",
+      "duplicate_listing_ids": [
+        "rec_1044",
+        "rec_1092"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A14",
+      "price": "13,999"
+    },
+    {
+      "representative_listing_id": "rec_1045",
+      "duplicate_listing_ids": [
+        "rec_1045",
+        "rec_1093"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y35 2022",
+      "price": "13,990"
+    },
+    {
+      "representative_listing_id": "rec_1046",
+      "duplicate_listing_ids": [
+        "rec_1046",
+        "rec_1094"
+      ],
+      "group_size": 2,
+      "model_name": "realme C30s",
+      "price": "7,499"
+    },
+    {
+      "representative_listing_id": "rec_1047",
+      "duplicate_listing_ids": [
+        "rec_1047",
+        "rec_1095"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 14 Pro 256GB",
+      "price": "122,990"
+    },
+    {
+      "representative_listing_id": "rec_1048",
+      "duplicate_listing_ids": [
+        "rec_1048",
+        "rec_1096"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A04e",
+      "price": "10,499"
+    },
+    {
+      "representative_listing_id": "rec_1049",
+      "duplicate_listing_ids": [
+        "rec_1049",
+        "rec_1097"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V27 Pro 12GB RAM",
+      "price": "40,949"
+    },
+    {
+      "representative_listing_id": "rec_1050",
+      "duplicate_listing_ids": [
+        "rec_1050",
+        "rec_1098"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo N55",
+      "price": "10,199"
+    },
+    {
+      "representative_listing_id": "rec_1051",
+      "duplicate_listing_ids": [
+        "rec_1051",
+        "rec_1099"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Z7s 5G 8GB RAM",
+      "price": "13,999"
+    },
+    {
+      "representative_listing_id": "rec_1052",
+      "duplicate_listing_ids": [
+        "rec_1052",
+        "rec_1100"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Neo 7 Pro 256GB",
+      "price": "32,999"
+    },
+    {
+      "representative_listing_id": "rec_1053",
+      "duplicate_listing_ids": [
+        "rec_1053",
+        "rec_1101"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo 60 5G 256GB",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_1054",
+      "duplicate_listing_ids": [
+        "rec_1054",
+        "rec_1102"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo 60 Pro 5G 256GB",
+      "price": "17,999"
+    },
+    {
+      "representative_listing_id": "rec_1055",
+      "duplicate_listing_ids": [
+        "rec_1055",
+        "rec_1103"
+      ],
+      "group_size": 2,
+      "model_name": "Moto G04 128GB",
+      "price": "7,999"
+    },
+    {
+      "representative_listing_id": "rec_1056",
+      "duplicate_listing_ids": [
+        "rec_1056",
+        "rec_1104"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy J7 Pro",
+      "price": "20,900"
+    },
+    {
+      "representative_listing_id": "rec_1105",
+      "duplicate_listing_ids": [
+        "rec_1105",
+        "rec_1153"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone XS Max 256GB",
+      "price": "124,900"
+    },
+    {
+      "representative_listing_id": "rec_1106",
+      "duplicate_listing_ids": [
+        "rec_1106",
+        "rec_1154"
+      ],
+      "group_size": 2,
+      "model_name": "realme 3i",
+      "price": "7,999"
+    },
+    {
+      "representative_listing_id": "rec_1107",
+      "duplicate_listing_ids": [
+        "rec_1107",
+        "rec_1155"
+      ],
+      "group_size": 2,
+      "model_name": "realme 5",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_1108",
+      "duplicate_listing_ids": [
+        "rec_1108",
+        "rec_1156"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 8 64GB",
+      "price": "8,299"
+    },
+    {
+      "representative_listing_id": "rec_1109",
+      "duplicate_listing_ids": [
+        "rec_1109",
+        "rec_1157"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S20 5G",
+      "price": "49,902"
+    },
+    {
+      "representative_listing_id": "rec_1110",
+      "duplicate_listing_ids": [
+        "rec_1110",
+        "rec_1158"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 9 Pro 128GB",
+      "price": "13,990"
+    },
+    {
+      "representative_listing_id": "rec_1111",
+      "duplicate_listing_ids": [
+        "rec_1111",
+        "rec_1159"
+      ],
+      "group_size": 2,
+      "model_name": "realme C31",
+      "price": "7,499"
+    },
+    {
+      "representative_listing_id": "rec_1112",
+      "duplicate_listing_ids": [
+        "rec_1112",
+        "rec_1160"
+      ],
+      "group_size": 2,
+      "model_name": "realme C35 128GB",
+      "price": "9,499"
+    },
+    {
+      "representative_listing_id": "rec_1113",
+      "duplicate_listing_ids": [
+        "rec_1113",
+        "rec_1161"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 11 Pro Plus 5G 256GB",
+      "price": "23,278"
+    },
+    {
+      "representative_listing_id": "rec_1114",
+      "duplicate_listing_ids": [
+        "rec_1114",
+        "rec_1162"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO 9T 5G",
+      "price": "36,999"
+    },
+    {
+      "representative_listing_id": "rec_1115",
+      "duplicate_listing_ids": [
+        "rec_1115",
+        "rec_1163"
+      ],
+      "group_size": 2,
+      "model_name": "realme GT Neo 3 5G 150W Thor Limited Edition",
+      "price": "21,999"
+    },
+    {
+      "representative_listing_id": "rec_1116",
+      "duplicate_listing_ids": [
+        "rec_1116",
+        "rec_1164"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A77 2022",
+      "price": "15,499"
+    },
+    {
+      "representative_listing_id": "rec_1117",
+      "duplicate_listing_ids": [
+        "rec_1117",
+        "rec_1165"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y02",
+      "price": "7,990"
+    },
+    {
+      "representative_listing_id": "rec_1118",
+      "duplicate_listing_ids": [
+        "rec_1118",
+        "rec_1166"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi A1",
+      "price": "7,999"
+    },
+    {
+      "representative_listing_id": "rec_1119",
+      "duplicate_listing_ids": [
+        "rec_1119",
+        "rec_1167"
+      ],
+      "group_size": 2,
+      "model_name": "realme 10 Pro 5G 8GB RAM",
+      "price": "19,999"
+    },
+    {
+      "representative_listing_id": "rec_1120",
+      "duplicate_listing_ids": [
+        "rec_1120",
+        "rec_1168"
+      ],
+      "group_size": 2,
+      "model_name": "Oukitel WP9",
+      "price": "27,999"
+    },
+    {
+      "representative_listing_id": "rec_1121",
+      "duplicate_listing_ids": [
+        "rec_1121",
+        "rec_1169"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y02T",
+      "price": "10,999"
+    },
+    {
+      "representative_listing_id": "rec_1122",
+      "duplicate_listing_ids": [
+        "rec_1122",
+        "rec_1170"
+      ],
+      "group_size": 2,
+      "model_name": "Moto E13 128GB",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_1123",
+      "duplicate_listing_ids": [
+        "rec_1123",
+        "rec_1171"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 15 Pro 256GB",
+      "price": "137,600"
+    },
+    {
+      "representative_listing_id": "rec_1124",
+      "duplicate_listing_ids": [
+        "rec_1124",
+        "rec_1172"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M14 4G 128GB",
+      "price": "11,999"
+    },
+    {
+      "representative_listing_id": "rec_1125",
+      "duplicate_listing_ids": [
+        "rec_1125",
+        "rec_1173"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO 12 5G Anniversary Edition",
+      "price": "52,999"
+    },
+    {
+      "representative_listing_id": "rec_1126",
+      "duplicate_listing_ids": [
+        "rec_1126",
+        "rec_1174"
+      ],
+      "group_size": 2,
+      "model_name": "Doogee Smini",
+      "price": "29,500"
+    },
+    {
+      "representative_listing_id": "rec_1127",
+      "duplicate_listing_ids": [
+        "rec_1127",
+        "rec_1175"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 4 64GB",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_1128",
+      "duplicate_listing_ids": [
+        "rec_1128",
+        "rec_1176"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy On Max",
+      "price": "17,990"
+    },
+    {
+      "representative_listing_id": "rec_1129",
+      "duplicate_listing_ids": [
+        "rec_1129",
+        "rec_1177"
+      ],
+      "group_size": 2,
+      "model_name": "Nokia 6.2",
+      "price": "15,999"
+    },
+    {
+      "representative_listing_id": "rec_1130",
+      "duplicate_listing_ids": [
+        "rec_1130",
+        "rec_1178"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 7 Pro 128GB",
+      "price": "10,999"
+    },
+    {
+      "representative_listing_id": "rec_1131",
+      "duplicate_listing_ids": [
+        "rec_1131",
+        "rec_1179"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V15 Pro",
+      "price": "23,999"
+    },
+    {
+      "representative_listing_id": "rec_1132",
+      "duplicate_listing_ids": [
+        "rec_1132",
+        "rec_1180"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 7 Pro 12GB RAM",
+      "price": "29,999"
+    },
+    {
+      "representative_listing_id": "rec_1133",
+      "duplicate_listing_ids": [
+        "rec_1133",
+        "rec_1181"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Note 10 Plus 512GB",
+      "price": "42,999"
+    },
+    {
+      "representative_listing_id": "rec_1134",
+      "duplicate_listing_ids": [
+        "rec_1134",
+        "rec_1182"
+      ],
+      "group_size": 2,
+      "model_name": "Lenovo K10 Note",
+      "price": "16,999"
+    },
+    {
+      "representative_listing_id": "rec_1135",
+      "duplicate_listing_ids": [
+        "rec_1135",
+        "rec_1183"
+      ],
+      "group_size": 2,
+      "model_name": "vivo S1 6GB RAM",
+      "price": "17,200"
+    },
+    {
+      "representative_listing_id": "rec_1136",
+      "duplicate_listing_ids": [
+        "rec_1136",
+        "rec_1184"
+      ],
+      "group_size": 2,
+      "model_name": "LG Velvet",
+      "price": "34,999"
+    },
+    {
+      "representative_listing_id": "rec_1137",
+      "duplicate_listing_ids": [
+        "rec_1137",
+        "rec_1185"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A53 2020 128GB",
+      "price": "12,990"
+    },
+    {
+      "representative_listing_id": "rec_1138",
+      "duplicate_listing_ids": [
+        "rec_1138",
+        "rec_1186"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M51 8GB RAM",
+      "price": "21,999"
+    },
+    {
+      "representative_listing_id": "rec_1139",
+      "duplicate_listing_ids": [
+        "rec_1139",
+        "rec_1187"
+      ],
+      "group_size": 2,
+      "model_name": "Lava Z4",
+      "price": "7,199"
+    },
+    {
+      "representative_listing_id": "rec_1140",
+      "duplicate_listing_ids": [
+        "rec_1140",
+        "rec_1188"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 10 Pro 128GB",
+      "price": "14,799"
+    },
+    {
+      "representative_listing_id": "rec_1141",
+      "duplicate_listing_ids": [
+        "rec_1141",
+        "rec_1189"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Camon 17",
+      "price": "10,999"
+    },
+    {
+      "representative_listing_id": "rec_1142",
+      "duplicate_listing_ids": [
+        "rec_1142",
+        "rec_1190"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A22 5G 8GB RAM",
+      "price": "20,999"
+    },
+    {
+      "representative_listing_id": "rec_1143",
+      "duplicate_listing_ids": [
+        "rec_1143",
+        "rec_1191"
+      ],
+      "group_size": 2,
+      "model_name": "realme 8s 5G",
+      "price": "18,990"
+    },
+    {
+      "representative_listing_id": "rec_1144",
+      "duplicate_listing_ids": [
+        "rec_1144",
+        "rec_1192"
+      ],
+      "group_size": 2,
+      "model_name": "realme GT 5G 256GB",
+      "price": "27,999"
+    },
+    {
+      "representative_listing_id": "rec_1145",
+      "duplicate_listing_ids": [
+        "rec_1145",
+        "rec_1193"
+      ],
+      "group_size": 2,
+      "model_name": "realme GT Master Edition 5G 8GB RAM",
+      "price": "23,930"
+    },
+    {
+      "representative_listing_id": "rec_1146",
+      "duplicate_listing_ids": [
+        "rec_1146",
+        "rec_1194"
+      ],
+      "group_size": 2,
+      "model_name": "realme C25Y 64GB",
+      "price": "8,280"
+    },
+    {
+      "representative_listing_id": "rec_1147",
+      "duplicate_listing_ids": [
+        "rec_1147",
+        "rec_1195"
+      ],
+      "group_size": 2,
+      "model_name": "vivo X80 5G",
+      "price": "49,999"
+    },
+    {
+      "representative_listing_id": "rec_1148",
+      "duplicate_listing_ids": [
+        "rec_1148",
+        "rec_1196"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 10S 8GB RAM",
+      "price": "13,999"
+    },
+    {
+      "representative_listing_id": "rec_1149",
+      "duplicate_listing_ids": [
+        "rec_1149",
+        "rec_1197"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Z6 5G",
+      "price": "14,499"
+    },
+    {
+      "representative_listing_id": "rec_1150",
+      "duplicate_listing_ids": [
+        "rec_1150",
+        "rec_1198"
+      ],
+      "group_size": 2,
+      "model_name": "vivo T1 Pro 5G 8GB RAM",
+      "price": "19,840"
+    },
+    {
+      "representative_listing_id": "rec_1151",
+      "duplicate_listing_ids": [
+        "rec_1151",
+        "rec_1199"
+      ],
+      "group_size": 2,
+      "model_name": "I Kall Z12 Pro",
+      "price": "5,659"
+    },
+    {
+      "representative_listing_id": "rec_1152",
+      "duplicate_listing_ids": [
+        "rec_1152",
+        "rec_1200"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Hot 30i",
+      "price": "11,999"
+    },
+    {
+      "representative_listing_id": "rec_1249",
+      "duplicate_listing_ids": [
+        "rec_1249",
+        "rec_1297"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Note 12i",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_1250",
+      "duplicate_listing_ids": [
+        "rec_1250",
+        "rec_1298"
+      ],
+      "group_size": 2,
+      "model_name": "Moto G42",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_1251",
+      "duplicate_listing_ids": [
+        "rec_1251",
+        "rec_1299"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo 50i Prime",
+      "price": "8,590"
+    },
+    {
+      "representative_listing_id": "rec_1252",
+      "duplicate_listing_ids": [
+        "rec_1252",
+        "rec_1300"
+      ],
+      "group_size": 2,
+      "model_name": "realme C35 6GB RAM",
+      "price": "11,999"
+    },
+    {
+      "representative_listing_id": "rec_1253",
+      "duplicate_listing_ids": [
+        "rec_1253",
+        "rec_1301"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 14 Pro Max 1TB",
+      "price": "172,990"
+    },
+    {
+      "representative_listing_id": "rec_1254",
+      "duplicate_listing_ids": [
+        "rec_1254",
+        "rec_1302"
+      ],
+      "group_size": 2,
+      "model_name": "realme 10 128GB",
+      "price": "14,299"
+    },
+    {
+      "representative_listing_id": "rec_1255",
+      "duplicate_listing_ids": [
+        "rec_1255",
+        "rec_1303"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Xcover 7",
+      "price": "27,208"
+    },
+    {
+      "representative_listing_id": "rec_1256",
+      "duplicate_listing_ids": [
+        "rec_1256",
+        "rec_1304"
+      ],
+      "group_size": 2,
+      "model_name": "Oukitel WP23",
+      "price": "18,400"
+    },
+    {
+      "representative_listing_id": "rec_1257",
+      "duplicate_listing_ids": [
+        "rec_1257",
+        "rec_1305"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Smart 8 128GB",
+      "price": "7,890"
+    },
+    {
+      "representative_listing_id": "rec_1258",
+      "duplicate_listing_ids": [
+        "rec_1258",
+        "rec_1306"
+      ],
+      "group_size": 2,
+      "model_name": "Blackberry Q5",
+      "price": "20,240"
+    },
+    {
+      "representative_listing_id": "rec_1259",
+      "duplicate_listing_ids": [
+        "rec_1259",
+        "rec_1307"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A8",
+      "price": "26,945"
+    },
+    {
+      "representative_listing_id": "rec_1260",
+      "duplicate_listing_ids": [
+        "rec_1260",
+        "rec_1308"
+      ],
+      "group_size": 2,
+      "model_name": "Panasonic Eluga Turbo",
+      "price": "13,988"
+    },
+    {
+      "representative_listing_id": "rec_1261",
+      "duplicate_listing_ids": [
+        "rec_1261",
+        "rec_1309"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 3 32GB",
+      "price": "7,999"
+    },
+    {
+      "representative_listing_id": "rec_1262",
+      "duplicate_listing_ids": [
+        "rec_1262",
+        "rec_1310"
+      ],
+      "group_size": 2,
+      "model_name": "HTC Desire 828 Dual SIM 3GB RAM",
+      "price": "13,899"
+    },
+    {
+      "representative_listing_id": "rec_1263",
+      "duplicate_listing_ids": [
+        "rec_1263",
+        "rec_1311"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V3 Max",
+      "price": "18,000"
+    },
+    {
+      "representative_listing_id": "rec_1264",
+      "duplicate_listing_ids": [
+        "rec_1264",
+        "rec_1312"
+      ],
+      "group_size": 2,
+      "model_name": "Lenovo Z2 Plus 64GB (Zuk Z2)",
+      "price": "10,999"
+    },
+    {
+      "representative_listing_id": "rec_1265",
+      "duplicate_listing_ids": [
+        "rec_1265",
+        "rec_1313"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy J2 Pro",
+      "price": "9,799"
+    },
+    {
+      "representative_listing_id": "rec_1266",
+      "duplicate_listing_ids": [
+        "rec_1266",
+        "rec_1314"
+      ],
+      "group_size": 2,
+      "model_name": "LG V20",
+      "price": "60,000"
+    },
+    {
+      "representative_listing_id": "rec_1267",
+      "duplicate_listing_ids": [
+        "rec_1267",
+        "rec_1315"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A5 2017",
+      "price": "22,900"
+    },
+    {
+      "representative_listing_id": "rec_1268",
+      "duplicate_listing_ids": [
+        "rec_1268",
+        "rec_1316"
+      ],
+      "group_size": 2,
+      "model_name": "Google Pixel",
+      "price": "57,000"
+    },
+    {
+      "representative_listing_id": "rec_1269",
+      "duplicate_listing_ids": [
+        "rec_1269",
+        "rec_1317"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy On Nxt",
+      "price": "19,150"
+    },
+    {
+      "representative_listing_id": "rec_1270",
+      "duplicate_listing_ids": [
+        "rec_1270",
+        "rec_1318"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y55S",
+      "price": "11,300"
+    },
+    {
+      "representative_listing_id": "rec_1271",
+      "duplicate_listing_ids": [
+        "rec_1271",
+        "rec_1319"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y53",
+      "price": "9,990"
+    },
+    {
+      "representative_listing_id": "rec_1272",
+      "duplicate_listing_ids": [
+        "rec_1272",
+        "rec_1320"
+      ],
+      "group_size": 2,
+      "model_name": "Nubia M2 Lite",
+      "price": "7,160"
+    },
+    {
+      "representative_listing_id": "rec_1273",
+      "duplicate_listing_ids": [
+        "rec_1273",
+        "rec_1321"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy J7 Max",
+      "price": "15,900"
+    },
+    {
+      "representative_listing_id": "rec_1274",
+      "duplicate_listing_ids": [
+        "rec_1274",
+        "rec_1322"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y69",
+      "price": "13,990"
+    },
+    {
+      "representative_listing_id": "rec_1275",
+      "duplicate_listing_ids": [
+        "rec_1275",
+        "rec_1323"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 5A",
+      "price": "5,999"
+    },
+    {
+      "representative_listing_id": "rec_1276",
+      "duplicate_listing_ids": [
+        "rec_1276",
+        "rec_1324"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone X",
+      "price": "60,000"
+    },
+    {
+      "representative_listing_id": "rec_1277",
+      "duplicate_listing_ids": [
+        "rec_1277",
+        "rec_1325"
+      ],
+      "group_size": 2,
+      "model_name": "Honor 7X 64GB",
+      "price": "15,499"
+    },
+    {
+      "representative_listing_id": "rec_1278",
+      "duplicate_listing_ids": [
+        "rec_1278",
+        "rec_1326"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 5A 32GB",
+      "price": "6,999"
+    },
+    {
+      "representative_listing_id": "rec_1279",
+      "duplicate_listing_ids": [
+        "rec_1279",
+        "rec_1327"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 6",
+      "price": "7,499"
+    },
+    {
+      "representative_listing_id": "rec_1280",
+      "duplicate_listing_ids": [
+        "rec_1280",
+        "rec_1328"
+      ],
+      "group_size": 2,
+      "model_name": "Intex Staari 12",
+      "price": "5,999"
+    },
+    {
+      "representative_listing_id": "rec_1281",
+      "duplicate_listing_ids": [
+        "rec_1281",
+        "rec_1329"
+      ],
+      "group_size": 2,
+      "model_name": "Nokia 6.1 Plus (Nokia X6)",
+      "price": "15,999"
+    },
+    {
+      "representative_listing_id": "rec_1282",
+      "duplicate_listing_ids": [
+        "rec_1282",
+        "rec_1330"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO F9 Pro",
+      "price": "16,990"
+    },
+    {
+      "representative_listing_id": "rec_1283",
+      "duplicate_listing_ids": [
+        "rec_1283",
+        "rec_1331"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO R17",
+      "price": "20,999"
+    },
+    {
+      "representative_listing_id": "rec_1284",
+      "duplicate_listing_ids": [
+        "rec_1284",
+        "rec_1332"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Note 9 512GB",
+      "price": "34,999"
+    },
+    {
+      "representative_listing_id": "rec_1285",
+      "duplicate_listing_ids": [
+        "rec_1285",
+        "rec_1333"
+      ],
+      "group_size": 2,
+      "model_name": "Huawei Mate 20 Pro",
+      "price": "31,999"
+    },
+    {
+      "representative_listing_id": "rec_1286",
+      "duplicate_listing_ids": [
+        "rec_1286",
+        "rec_1334"
+      ],
+      "group_size": 2,
+      "model_name": "Mobiistar C1 Shine",
+      "price": "5,490"
+    },
+    {
+      "representative_listing_id": "rec_1287",
+      "duplicate_listing_ids": [
+        "rec_1287",
+        "rec_1335"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Fold",
+      "price": "79,990"
+    },
+    {
+      "representative_listing_id": "rec_1288",
+      "duplicate_listing_ids": [
+        "rec_1288",
+        "rec_1336"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Y3",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_1289",
+      "duplicate_listing_ids": [
+        "rec_1289",
+        "rec_1337"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno 10x Zoom Edition",
+      "price": "41,990"
+    },
+    {
+      "representative_listing_id": "rec_1290",
+      "duplicate_listing_ids": [
+        "rec_1290",
+        "rec_1338"
+      ],
+      "group_size": 2,
+      "model_name": "realme X 8GB RAM",
+      "price": "18,999"
+    },
+    {
+      "representative_listing_id": "rec_1291",
+      "duplicate_listing_ids": [
+        "rec_1291",
+        "rec_1339"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y90",
+      "price": "6,990"
+    },
+    {
+      "representative_listing_id": "rec_1292",
+      "duplicate_listing_ids": [
+        "rec_1292",
+        "rec_1340"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi K20 Pro 256GB",
+      "price": "29,499"
+    },
+    {
+      "representative_listing_id": "rec_1293",
+      "duplicate_listing_ids": [
+        "rec_1293",
+        "rec_1341"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 7T Pro",
+      "price": "53,999"
+    },
+    {
+      "representative_listing_id": "rec_1294",
+      "duplicate_listing_ids": [
+        "rec_1294",
+        "rec_1342"
+      ],
+      "group_size": 2,
+      "model_name": "Lava Z93",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_1295",
+      "duplicate_listing_ids": [
+        "rec_1295",
+        "rec_1343"
+      ],
+      "group_size": 2,
+      "model_name": "Lenovo K10 Note 128GB",
+      "price": "18,999"
+    },
+    {
+      "representative_listing_id": "rec_1296",
+      "duplicate_listing_ids": [
+        "rec_1296",
+        "rec_1344"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A10s 3GB RAM",
+      "price": "10,998"
+    },
+    {
+      "representative_listing_id": "rec_1393",
+      "duplicate_listing_ids": [
+        "rec_1393",
+        "rec_1441"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A98",
+      "price": "28,999"
+    },
+    {
+      "representative_listing_id": "rec_1394",
+      "duplicate_listing_ids": [
+        "rec_1394",
+        "rec_1442"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Zero 5G 2023",
+      "price": "17,999"
+    },
+    {
+      "representative_listing_id": "rec_1395",
+      "duplicate_listing_ids": [
+        "rec_1395",
+        "rec_1443"
+      ],
+      "group_size": 2,
+      "model_name": "Oukitel WP12",
+      "price": "15,599"
+    },
+    {
+      "representative_listing_id": "rec_1396",
+      "duplicate_listing_ids": [
+        "rec_1396",
+        "rec_1444"
+      ],
+      "group_size": 2,
+      "model_name": "POCO C50 3GB RAM",
+      "price": "5,999"
+    },
+    {
+      "representative_listing_id": "rec_1397",
+      "duplicate_listing_ids": [
+        "rec_1397",
+        "rec_1445"
+      ],
+      "group_size": 2,
+      "model_name": "Oukitel WP10",
+      "price": "45,999"
+    },
+    {
+      "representative_listing_id": "rec_1398",
+      "duplicate_listing_ids": [
+        "rec_1398",
+        "rec_1446"
+      ],
+      "group_size": 2,
+      "model_name": "POCO X5 Pro 256GB",
+      "price": "19,349"
+    },
+    {
+      "representative_listing_id": "rec_1399",
+      "duplicate_listing_ids": [
+        "rec_1399",
+        "rec_1447"
+      ],
+      "group_size": 2,
+      "model_name": "Nokia C32",
+      "price": "8,990"
+    },
+    {
+      "representative_listing_id": "rec_1400",
+      "duplicate_listing_ids": [
+        "rec_1400",
+        "rec_1448"
+      ],
+      "group_size": 2,
+      "model_name": "vivo V27 Pro 256GB",
+      "price": "31,990"
+    },
+    {
+      "representative_listing_id": "rec_1401",
+      "duplicate_listing_ids": [
+        "rec_1401",
+        "rec_1449"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo N55 128GB",
+      "price": "10,799"
+    },
+    {
+      "representative_listing_id": "rec_1402",
+      "duplicate_listing_ids": [
+        "rec_1402",
+        "rec_1450"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y22 2022 4GB RAM",
+      "price": "12,950"
+    },
+    {
+      "representative_listing_id": "rec_1403",
+      "duplicate_listing_ids": [
+        "rec_1403",
+        "rec_1451"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Spark 10 5G 128GB",
+      "price": "13,999"
+    },
+    {
+      "representative_listing_id": "rec_1404",
+      "duplicate_listing_ids": [
+        "rec_1404",
+        "rec_1452"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A14 128GB",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_1405",
+      "duplicate_listing_ids": [
+        "rec_1405",
+        "rec_1453"
+      ],
+      "group_size": 2,
+      "model_name": "realme 11 Pro 12GB RAM",
+      "price": "25,990"
+    },
+    {
+      "representative_listing_id": "rec_1406",
+      "duplicate_listing_ids": [
+        "rec_1406",
+        "rec_1454"
+      ],
+      "group_size": 2,
+      "model_name": "Itel A60S",
+      "price": "5,849"
+    },
+    {
+      "representative_listing_id": "rec_1407",
+      "duplicate_listing_ids": [
+        "rec_1407",
+        "rec_1455"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Spark 10 Pro  Moon Explorer Edition",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_1408",
+      "duplicate_listing_ids": [
+        "rec_1408",
+        "rec_1456"
+      ],
+      "group_size": 2,
+      "model_name": "Lava Blaze Pro 5G",
+      "price": "12,998"
+    },
+    {
+      "representative_listing_id": "rec_1409",
+      "duplicate_listing_ids": [
+        "rec_1409",
+        "rec_1457"
+      ],
+      "group_size": 2,
+      "model_name": "Itel P55 5G 128GB",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_1410",
+      "duplicate_listing_ids": [
+        "rec_1410",
+        "rec_1458"
+      ],
+      "group_size": 2,
+      "model_name": "Itel P40 128GB",
+      "price": "6,650"
+    },
+    {
+      "representative_listing_id": "rec_1411",
+      "duplicate_listing_ids": [
+        "rec_1411",
+        "rec_1459"
+      ],
+      "group_size": 2,
+      "model_name": "Sony Ericsson Xperia Neo V",
+      "price": "19,299"
+    },
+    {
+      "representative_listing_id": "rec_1412",
+      "duplicate_listing_ids": [
+        "rec_1412",
+        "rec_1460"
+      ],
+      "group_size": 2,
+      "model_name": "realme C65 5G 128GB",
+      "price": "11,163"
+    },
+    {
+      "representative_listing_id": "rec_1413",
+      "duplicate_listing_ids": [
+        "rec_1413",
+        "rec_1461"
+      ],
+      "group_size": 2,
+      "model_name": "Lava Yuva 5G 128GB",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_1414",
+      "duplicate_listing_ids": [
+        "rec_1414",
+        "rec_1462"
+      ],
+      "group_size": 2,
+      "model_name": "realme P1 Pro 12GB RAM",
+      "price": "22,999"
+    },
+    {
+      "representative_listing_id": "rec_1415",
+      "duplicate_listing_ids": [
+        "rec_1415",
+        "rec_1463"
+      ],
+      "group_size": 2,
+      "model_name": "Sony Xperia tipo",
+      "price": "6,299"
+    },
+    {
+      "representative_listing_id": "rec_1416",
+      "duplicate_listing_ids": [
+        "rec_1416",
+        "rec_1464"
+      ],
+      "group_size": 2,
+      "model_name": "Honor 4X",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_1417",
+      "duplicate_listing_ids": [
+        "rec_1417",
+        "rec_1465"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy J2 (2015)",
+      "price": "7,448"
+    },
+    {
+      "representative_listing_id": "rec_1418",
+      "duplicate_listing_ids": [
+        "rec_1418",
+        "rec_1466"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 6s 64GB",
+      "price": "62,690"
+    },
+    {
+      "representative_listing_id": "rec_1419",
+      "duplicate_listing_ids": [
+        "rec_1419",
+        "rec_1467"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy On5",
+      "price": "8,990"
+    },
+    {
+      "representative_listing_id": "rec_1420",
+      "duplicate_listing_ids": [
+        "rec_1420",
+        "rec_1468"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy On7",
+      "price": "10,990"
+    },
+    {
+      "representative_listing_id": "rec_1421",
+      "duplicate_listing_ids": [
+        "rec_1421",
+        "rec_1469"
+      ],
+      "group_size": 2,
+      "model_name": "Lenovo Vibe K5 Note",
+      "price": "12,499"
+    },
+    {
+      "representative_listing_id": "rec_1422",
+      "duplicate_listing_ids": [
+        "rec_1422",
+        "rec_1470"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 7 Plus 128GB",
+      "price": "42,900"
+    },
+    {
+      "representative_listing_id": "rec_1423",
+      "duplicate_listing_ids": [
+        "rec_1423",
+        "rec_1471"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A57",
+      "price": "13,049"
+    },
+    {
+      "representative_listing_id": "rec_1424",
+      "duplicate_listing_ids": [
+        "rec_1424",
+        "rec_1472"
+      ],
+      "group_size": 2,
+      "model_name": "Lava Z25",
+      "price": "6,599"
+    },
+    {
+      "representative_listing_id": "rec_1425",
+      "duplicate_listing_ids": [
+        "rec_1425",
+        "rec_1473"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 5",
+      "price": "7,999"
+    },
+    {
+      "representative_listing_id": "rec_1426",
+      "duplicate_listing_ids": [
+        "rec_1426",
+        "rec_1474"
+      ],
+      "group_size": 2,
+      "model_name": "Micromax Canvas Infinity",
+      "price": "5,590"
+    },
+    {
+      "representative_listing_id": "rec_1427",
+      "duplicate_listing_ids": [
+        "rec_1427",
+        "rec_1475"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Mi A1",
+      "price": "13,990"
+    },
+    {
+      "representative_listing_id": "rec_1428",
+      "duplicate_listing_ids": [
+        "rec_1428",
+        "rec_1476"
+      ],
+      "group_size": 2,
+      "model_name": "Gionee X1s",
+      "price": "7,199"
+    },
+    {
+      "representative_listing_id": "rec_1429",
+      "duplicate_listing_ids": [
+        "rec_1429",
+        "rec_1477"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y75",
+      "price": "17,999"
+    },
+    {
+      "representative_listing_id": "rec_1430",
+      "duplicate_listing_ids": [
+        "rec_1430",
+        "rec_1478"
+      ],
+      "group_size": 2,
+      "model_name": "Asus Zenfone 5Z",
+      "price": "16,999"
+    },
+    {
+      "representative_listing_id": "rec_1431",
+      "duplicate_listing_ids": [
+        "rec_1431",
+        "rec_1479"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy J7 Prime 2",
+      "price": "14,990"
+    },
+    {
+      "representative_listing_id": "rec_1432",
+      "duplicate_listing_ids": [
+        "rec_1432",
+        "rec_1480"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y71",
+      "price": "11,990"
+    },
+    {
+      "representative_listing_id": "rec_1433",
+      "duplicate_listing_ids": [
+        "rec_1433",
+        "rec_1481"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Z10",
+      "price": "10,990"
+    },
+    {
+      "representative_listing_id": "rec_1434",
+      "duplicate_listing_ids": [
+        "rec_1434",
+        "rec_1482"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy On8 2018",
+      "price": "19,990"
+    },
+    {
+      "representative_listing_id": "rec_1435",
+      "duplicate_listing_ids": [
+        "rec_1435",
+        "rec_1483"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A9 2018",
+      "price": "18,999"
+    },
+    {
+      "representative_listing_id": "rec_1436",
+      "duplicate_listing_ids": [
+        "rec_1436",
+        "rec_1484"
+      ],
+      "group_size": 2,
+      "model_name": "OnePlus 6T McLaren Edition",
+      "price": "39,999"
+    },
+    {
+      "representative_listing_id": "rec_1437",
+      "duplicate_listing_ids": [
+        "rec_1437",
+        "rec_1485"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M30",
+      "price": "14,990"
+    },
+    {
+      "representative_listing_id": "rec_1438",
+      "duplicate_listing_ids": [
+        "rec_1438",
+        "rec_1486"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y93 64GB",
+      "price": "13,000"
+    },
+    {
+      "representative_listing_id": "rec_1439",
+      "duplicate_listing_ids": [
+        "rec_1439",
+        "rec_1487"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S10 Plus 512GB",
+      "price": "99,000"
+    },
+    {
+      "representative_listing_id": "rec_1440",
+      "duplicate_listing_ids": [
+        "rec_1440",
+        "rec_1488"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A50 6GB RAM",
+      "price": "15,990"
+    },
+    {
+      "representative_listing_id": "rec_1777",
+      "duplicate_listing_ids": [
+        "rec_1777",
+        "rec_1825"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A52",
+      "price": "16,970"
+    },
+    {
+      "representative_listing_id": "rec_1778",
+      "duplicate_listing_ids": [
+        "rec_1778",
+        "rec_1826"
+      ],
+      "group_size": 2,
+      "model_name": "Motorola Razr 2019",
+      "price": "69,999"
+    },
+    {
+      "representative_listing_id": "rec_1779",
+      "duplicate_listing_ids": [
+        "rec_1779",
+        "rec_1827"
+      ],
+      "group_size": 2,
+      "model_name": "Motorola One Fusion Plus",
+      "price": "16,999"
+    },
+    {
+      "representative_listing_id": "rec_1780",
+      "duplicate_listing_ids": [
+        "rec_1780",
+        "rec_1828"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone SE 2020 128GB",
+      "price": "40,990"
+    },
+    {
+      "representative_listing_id": "rec_1781",
+      "duplicate_listing_ids": [
+        "rec_1781",
+        "rec_1829"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Hot 9 Pro",
+      "price": "8,979"
+    },
+    {
+      "representative_listing_id": "rec_1782",
+      "duplicate_listing_ids": [
+        "rec_1782",
+        "rec_1830"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 8A Dual 64GB",
+      "price": "8,830"
+    },
+    {
+      "representative_listing_id": "rec_1783",
+      "duplicate_listing_ids": [
+        "rec_1783",
+        "rec_1831"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A21s 6GB RAM",
+      "price": "12,489"
+    },
+    {
+      "representative_listing_id": "rec_1784",
+      "duplicate_listing_ids": [
+        "rec_1784",
+        "rec_1832"
+      ],
+      "group_size": 2,
+      "model_name": "realme X3 8GB RAM",
+      "price": "15,990"
+    },
+    {
+      "representative_listing_id": "rec_1785",
+      "duplicate_listing_ids": [
+        "rec_1785",
+        "rec_1833"
+      ],
+      "group_size": 2,
+      "model_name": "POCO M2 Pro 6GB RAM",
+      "price": "10,999"
+    },
+    {
+      "representative_listing_id": "rec_1786",
+      "duplicate_listing_ids": [
+        "rec_1786",
+        "rec_1834"
+      ],
+      "group_size": 2,
+      "model_name": "realme 6 6GB RAM",
+      "price": "12,999"
+    },
+    {
+      "representative_listing_id": "rec_1787",
+      "duplicate_listing_ids": [
+        "rec_1787",
+        "rec_1835"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO F15 4GB RAM",
+      "price": "12,999"
+    },
+    {
+      "representative_listing_id": "rec_1788",
+      "duplicate_listing_ids": [
+        "rec_1788",
+        "rec_1836"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A52 8GB RAM",
+      "price": "20,990"
+    },
+    {
+      "representative_listing_id": "rec_1789",
+      "duplicate_listing_ids": [
+        "rec_1789",
+        "rec_1837"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Hot 10",
+      "price": "11,999"
+    },
+    {
+      "representative_listing_id": "rec_1790",
+      "duplicate_listing_ids": [
+        "rec_1790",
+        "rec_1838"
+      ],
+      "group_size": 2,
+      "model_name": "Moto G9",
+      "price": "8,299"
+    },
+    {
+      "representative_listing_id": "rec_1791",
+      "duplicate_listing_ids": [
+        "rec_1791",
+        "rec_1839"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y20i",
+      "price": "11,490"
+    },
+    {
+      "representative_listing_id": "rec_1792",
+      "duplicate_listing_ids": [
+        "rec_1792",
+        "rec_1840"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 9 128GB",
+      "price": "10,190"
+    },
+    {
+      "representative_listing_id": "rec_1793",
+      "duplicate_listing_ids": [
+        "rec_1793",
+        "rec_1841"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 9 Pro Max 8GB RAM",
+      "price": "19,999"
+    },
+    {
+      "representative_listing_id": "rec_1794",
+      "duplicate_listing_ids": [
+        "rec_1794",
+        "rec_1842"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M21 128GB",
+      "price": "11,990"
+    },
+    {
+      "representative_listing_id": "rec_1795",
+      "duplicate_listing_ids": [
+        "rec_1795",
+        "rec_1843"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo 20A",
+      "price": "9,900"
+    },
+    {
+      "representative_listing_id": "rec_1796",
+      "duplicate_listing_ids": [
+        "rec_1796",
+        "rec_1844"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Mi 10T",
+      "price": "33,999"
+    },
+    {
+      "representative_listing_id": "rec_1797",
+      "duplicate_listing_ids": [
+        "rec_1797",
+        "rec_1845"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy F41",
+      "price": "12,999"
+    },
+    {
+      "representative_listing_id": "rec_1798",
+      "duplicate_listing_ids": [
+        "rec_1798",
+        "rec_1846"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo 20 Pro 128GB",
+      "price": "17,490"
+    },
+    {
+      "representative_listing_id": "rec_1799",
+      "duplicate_listing_ids": [
+        "rec_1799",
+        "rec_1847"
+      ],
+      "group_size": 2,
+      "model_name": "POCO X3 128GB",
+      "price": "15,100"
+    },
+    {
+      "representative_listing_id": "rec_1800",
+      "duplicate_listing_ids": [
+        "rec_1800",
+        "rec_1848"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y12s",
+      "price": "9,990"
+    },
+    {
+      "representative_listing_id": "rec_1801",
+      "duplicate_listing_ids": [
+        "rec_1801",
+        "rec_1849"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M31 Prime",
+      "price": "17,990"
+    },
+    {
+      "representative_listing_id": "rec_1802",
+      "duplicate_listing_ids": [
+        "rec_1802",
+        "rec_1850"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A21s 128GB",
+      "price": "11,999"
+    },
+    {
+      "representative_listing_id": "rec_1803",
+      "duplicate_listing_ids": [
+        "rec_1803",
+        "rec_1851"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy F41 128GB",
+      "price": "16,500"
+    },
+    {
+      "representative_listing_id": "rec_1804",
+      "duplicate_listing_ids": [
+        "rec_1804",
+        "rec_1852"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 12 Mini 128GB",
+      "price": "29,999"
+    },
+    {
+      "representative_listing_id": "rec_1805",
+      "duplicate_listing_ids": [
+        "rec_1805",
+        "rec_1853"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 12 Pro Max 256GB",
+      "price": "115,030"
+    },
+    {
+      "representative_listing_id": "rec_1806",
+      "duplicate_listing_ids": [
+        "rec_1806",
+        "rec_1854"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Mi 10T 8GB RAM",
+      "price": "29,999"
+    },
+    {
+      "representative_listing_id": "rec_1807",
+      "duplicate_listing_ids": [
+        "rec_1807",
+        "rec_1855"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO F17 Pro Diwali Edition",
+      "price": "19,999"
+    },
+    {
+      "representative_listing_id": "rec_1808",
+      "duplicate_listing_ids": [
+        "rec_1808",
+        "rec_1856"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno 2F 256GB",
+      "price": "18,990"
+    },
+    {
+      "representative_listing_id": "rec_1809",
+      "duplicate_listing_ids": [
+        "rec_1809",
+        "rec_1857"
+      ],
+      "group_size": 2,
+      "model_name": "CAT S62 Pro",
+      "price": "78,999"
+    },
+    {
+      "representative_listing_id": "rec_1810",
+      "duplicate_listing_ids": [
+        "rec_1810",
+        "rec_1858"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Pova 128GB",
+      "price": "11,999"
+    },
+    {
+      "representative_listing_id": "rec_1811",
+      "duplicate_listing_ids": [
+        "rec_1811",
+        "rec_1859"
+      ],
+      "group_size": 2,
+      "model_name": "realme X3 SuperZoom Edition 8GB RAM",
+      "price": "31,999"
+    },
+    {
+      "representative_listing_id": "rec_1812",
+      "duplicate_listing_ids": [
+        "rec_1812",
+        "rec_1860"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo 30 Pro",
+      "price": "13,499"
+    },
+    {
+      "representative_listing_id": "rec_1813",
+      "duplicate_listing_ids": [
+        "rec_1813",
+        "rec_1861"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Hot 10 Play",
+      "price": "8,490"
+    },
+    {
+      "representative_listing_id": "rec_1814",
+      "duplicate_listing_ids": [
+        "rec_1814",
+        "rec_1862"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Spark 6 Go",
+      "price": "7,999"
+    },
+    {
+      "representative_listing_id": "rec_1815",
+      "duplicate_listing_ids": [
+        "rec_1815",
+        "rec_1863"
+      ],
+      "group_size": 2,
+      "model_name": "realme C21",
+      "price": "6,999"
+    },
+    {
+      "representative_listing_id": "rec_1816",
+      "duplicate_listing_ids": [
+        "rec_1816",
+        "rec_1864"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A15s 128GB",
+      "price": "10,434"
+    },
+    {
+      "representative_listing_id": "rec_1817",
+      "duplicate_listing_ids": [
+        "rec_1817",
+        "rec_1865"
+      ],
+      "group_size": 2,
+      "model_name": "Moto E7 Power",
+      "price": "6,499"
+    },
+    {
+      "representative_listing_id": "rec_1818",
+      "duplicate_listing_ids": [
+        "rec_1818",
+        "rec_1866"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo 30A 64GB",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_1819",
+      "duplicate_listing_ids": [
+        "rec_1819",
+        "rec_1867"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 10 128GB",
+      "price": "12,990"
+    },
+    {
+      "representative_listing_id": "rec_1820",
+      "duplicate_listing_ids": [
+        "rec_1820",
+        "rec_1868"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 10 Pro 8GB RAM",
+      "price": "15,990"
+    },
+    {
+      "representative_listing_id": "rec_1821",
+      "duplicate_listing_ids": [
+        "rec_1821",
+        "rec_1869"
+      ],
+      "group_size": 2,
+      "model_name": "Nokia G10",
+      "price": "9,449"
+    },
+    {
+      "representative_listing_id": "rec_1822",
+      "duplicate_listing_ids": [
+        "rec_1822",
+        "rec_1870"
+      ],
+      "group_size": 2,
+      "model_name": "Asus ROG Phone 5 Ultimate",
+      "price": "79,999"
+    },
+    {
+      "representative_listing_id": "rec_1823",
+      "duplicate_listing_ids": [
+        "rec_1823",
+        "rec_1871"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy A72 256GB",
+      "price": "38,999"
+    },
+    {
+      "representative_listing_id": "rec_1824",
+      "duplicate_listing_ids": [
+        "rec_1824",
+        "rec_1872"
+      ],
+      "group_size": 2,
+      "model_name": "realme 8 8GB RAM",
+      "price": "15,250"
+    },
+    {
+      "representative_listing_id": "rec_2257",
+      "duplicate_listing_ids": [
+        "rec_2257",
+        "rec_2305"
+      ],
+      "group_size": 2,
+      "model_name": "realme Narzo 50 5G",
+      "price": "14,490"
+    },
+    {
+      "representative_listing_id": "rec_2258",
+      "duplicate_listing_ids": [
+        "rec_2258",
+        "rec_2306"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy M32 5G 8GB RAM",
+      "price": "21,999"
+    },
+    {
+      "representative_listing_id": "rec_2259",
+      "duplicate_listing_ids": [
+        "rec_2259",
+        "rec_2307"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 13 256GB",
+      "price": "59,300"
+    },
+    {
+      "representative_listing_id": "rec_2260",
+      "duplicate_listing_ids": [
+        "rec_2260",
+        "rec_2308"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 13 Pro Max 512GB",
+      "price": "139,990"
+    },
+    {
+      "representative_listing_id": "rec_2261",
+      "duplicate_listing_ids": [
+        "rec_2261",
+        "rec_2309"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 9A Sport",
+      "price": "7,499"
+    },
+    {
+      "representative_listing_id": "rec_2262",
+      "duplicate_listing_ids": [
+        "rec_2262",
+        "rec_2310"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno6 Pro 5G Diwali Edition",
+      "price": "46,980"
+    },
+    {
+      "representative_listing_id": "rec_2263",
+      "duplicate_listing_ids": [
+        "rec_2263",
+        "rec_2311"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 9A Sport 3GB RAM",
+      "price": "7,167"
+    },
+    {
+      "representative_listing_id": "rec_2264",
+      "duplicate_listing_ids": [
+        "rec_2264",
+        "rec_2312"
+      ],
+      "group_size": 2,
+      "model_name": "POCO C31 64GB",
+      "price": "10,990"
+    },
+    {
+      "representative_listing_id": "rec_2265",
+      "duplicate_listing_ids": [
+        "rec_2265",
+        "rec_2313"
+      ],
+      "group_size": 2,
+      "model_name": "vivo X70 Pro 12GB RAM",
+      "price": "39,999"
+    },
+    {
+      "representative_listing_id": "rec_2266",
+      "duplicate_listing_ids": [
+        "rec_2266",
+        "rec_2314"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 10 Lite 6GB RAM",
+      "price": "12,490"
+    },
+    {
+      "representative_listing_id": "rec_2267",
+      "duplicate_listing_ids": [
+        "rec_2267",
+        "rec_2315"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A55 4G 128GB",
+      "price": "11,990"
+    },
+    {
+      "representative_listing_id": "rec_2268",
+      "duplicate_listing_ids": [
+        "rec_2268",
+        "rec_2316"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y91i 3GB RAM",
+      "price": "9,990"
+    },
+    {
+      "representative_listing_id": "rec_2269",
+      "duplicate_listing_ids": [
+        "rec_2269",
+        "rec_2317"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO Reno3 Pro 256GB",
+      "price": "25,800"
+    },
+    {
+      "representative_listing_id": "rec_2270",
+      "duplicate_listing_ids": [
+        "rec_2270",
+        "rec_2318"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy S10 Lite 512GB",
+      "price": "48,859"
+    },
+    {
+      "representative_listing_id": "rec_2271",
+      "duplicate_listing_ids": [
+        "rec_2271",
+        "rec_2319"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Spark Go",
+      "price": "6,499"
+    },
+    {
+      "representative_listing_id": "rec_2272",
+      "duplicate_listing_ids": [
+        "rec_2272",
+        "rec_2320"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Camon i4 64GB",
+      "price": "14,900"
+    },
+    {
+      "representative_listing_id": "rec_2273",
+      "duplicate_listing_ids": [
+        "rec_2273",
+        "rec_2321"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Camon iAce 2",
+      "price": "6,499"
+    },
+    {
+      "representative_listing_id": "rec_2274",
+      "duplicate_listing_ids": [
+        "rec_2274",
+        "rec_2322"
+      ],
+      "group_size": 2,
+      "model_name": "Yuho O2",
+      "price": "7,449"
+    },
+    {
+      "representative_listing_id": "rec_2275",
+      "duplicate_listing_ids": [
+        "rec_2275",
+        "rec_2323"
+      ],
+      "group_size": 2,
+      "model_name": "Doogee S60 Lite",
+      "price": "18,999"
+    },
+    {
+      "representative_listing_id": "rec_2276",
+      "duplicate_listing_ids": [
+        "rec_2276",
+        "rec_2324"
+      ],
+      "group_size": 2,
+      "model_name": "Doogee S60",
+      "price": "26,999"
+    },
+    {
+      "representative_listing_id": "rec_2277",
+      "duplicate_listing_ids": [
+        "rec_2277",
+        "rec_2325"
+      ],
+      "group_size": 2,
+      "model_name": "Zen Cinemax 3",
+      "price": "5,224"
+    },
+    {
+      "representative_listing_id": "rec_2278",
+      "duplicate_listing_ids": [
+        "rec_2278",
+        "rec_2326"
+      ],
+      "group_size": 2,
+      "model_name": "Zopo Speed 7 Plus",
+      "price": "6,300"
+    },
+    {
+      "representative_listing_id": "rec_2279",
+      "duplicate_listing_ids": [
+        "rec_2279",
+        "rec_2327"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Note 5 Dual SIM 32GB",
+      "price": "40,900"
+    },
+    {
+      "representative_listing_id": "rec_2280",
+      "duplicate_listing_ids": [
+        "rec_2280",
+        "rec_2328"
+      ],
+      "group_size": 2,
+      "model_name": "Sony Xperia C3 Dual SIM",
+      "price": "10,490"
+    },
+    {
+      "representative_listing_id": "rec_2281",
+      "duplicate_listing_ids": [
+        "rec_2281",
+        "rec_2329"
+      ],
+      "group_size": 2,
+      "model_name": "Nokia C5-00 5MP",
+      "price": "6,599"
+    },
+    {
+      "representative_listing_id": "rec_2282",
+      "duplicate_listing_ids": [
+        "rec_2282",
+        "rec_2330"
+      ],
+      "group_size": 2,
+      "model_name": "Oukitel WP17",
+      "price": "23,966"
+    },
+    {
+      "representative_listing_id": "rec_2283",
+      "duplicate_listing_ids": [
+        "rec_2283",
+        "rec_2331"
+      ],
+      "group_size": 2,
+      "model_name": "Lava Z3",
+      "price": "6,999"
+    },
+    {
+      "representative_listing_id": "rec_2284",
+      "duplicate_listing_ids": [
+        "rec_2284",
+        "rec_2332"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 11T 5G 8GB RAM",
+      "price": "18,499"
+    },
+    {
+      "representative_listing_id": "rec_2285",
+      "duplicate_listing_ids": [
+        "rec_2285",
+        "rec_2333"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 11T 5G 128GB",
+      "price": "16,999"
+    },
+    {
+      "representative_listing_id": "rec_2286",
+      "duplicate_listing_ids": [
+        "rec_2286",
+        "rec_2334"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 10 Prime 2022",
+      "price": "11,990"
+    },
+    {
+      "representative_listing_id": "rec_2287",
+      "duplicate_listing_ids": [
+        "rec_2287",
+        "rec_2335"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Mi 11i 8GB RAM",
+      "price": "19,999"
+    },
+    {
+      "representative_listing_id": "rec_2288",
+      "duplicate_listing_ids": [
+        "rec_2288",
+        "rec_2336"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Hot 11 2022",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_2289",
+      "duplicate_listing_ids": [
+        "rec_2289",
+        "rec_2337"
+      ],
+      "group_size": 2,
+      "model_name": "Infinix Hot 11S 128GB",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_2290",
+      "duplicate_listing_ids": [
+        "rec_2290",
+        "rec_2338"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Mi 11T Pro 5G 256GB",
+      "price": "26,999"
+    },
+    {
+      "representative_listing_id": "rec_2291",
+      "duplicate_listing_ids": [
+        "rec_2291",
+        "rec_2339"
+      ],
+      "group_size": 2,
+      "model_name": "Tecno Spark 8C",
+      "price": "6,999"
+    },
+    {
+      "representative_listing_id": "rec_2292",
+      "duplicate_listing_ids": [
+        "rec_2292",
+        "rec_2340"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO A16K 64GB",
+      "price": "8,499"
+    },
+    {
+      "representative_listing_id": "rec_2293",
+      "duplicate_listing_ids": [
+        "rec_2293",
+        "rec_2341"
+      ],
+      "group_size": 2,
+      "model_name": "vivo T1 8GB RAM",
+      "price": "13,900"
+    },
+    {
+      "representative_listing_id": "rec_2294",
+      "duplicate_listing_ids": [
+        "rec_2294",
+        "rec_2342"
+      ],
+      "group_size": 2,
+      "model_name": "Asus ROG Phone 5s 5G 256GB",
+      "price": "57,999"
+    },
+    {
+      "representative_listing_id": "rec_2295",
+      "duplicate_listing_ids": [
+        "rec_2295",
+        "rec_2343"
+      ],
+      "group_size": 2,
+      "model_name": "POCO M4 Pro 128GB",
+      "price": "12,590"
+    },
+    {
+      "representative_listing_id": "rec_2296",
+      "duplicate_listing_ids": [
+        "rec_2296",
+        "rec_2344"
+      ],
+      "group_size": 2,
+      "model_name": "realme 9 5G SE 8GB RAM",
+      "price": "19,990"
+    },
+    {
+      "representative_listing_id": "rec_2297",
+      "duplicate_listing_ids": [
+        "rec_2297",
+        "rec_2345"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi Note 11 Pro 8GB RAM",
+      "price": "16,999"
+    },
+    {
+      "representative_listing_id": "rec_2298",
+      "duplicate_listing_ids": [
+        "rec_2298",
+        "rec_2346"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Z6 5G 6GB RAM",
+      "price": "15,500"
+    },
+    {
+      "representative_listing_id": "rec_2299",
+      "duplicate_listing_ids": [
+        "rec_2299",
+        "rec_2347"
+      ],
+      "group_size": 2,
+      "model_name": "realme C31 64GB",
+      "price": "8,250"
+    },
+    {
+      "representative_listing_id": "rec_2300",
+      "duplicate_listing_ids": [
+        "rec_2300",
+        "rec_2348"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y15s 2021 64GB",
+      "price": "13,900"
+    },
+    {
+      "representative_listing_id": "rec_2301",
+      "duplicate_listing_ids": [
+        "rec_2301",
+        "rec_2349"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Z6 4G",
+      "price": "11,999"
+    },
+    {
+      "representative_listing_id": "rec_2302",
+      "duplicate_listing_ids": [
+        "rec_2302",
+        "rec_2350"
+      ],
+      "group_size": 2,
+      "model_name": "Nokia G21 128GB",
+      "price": "11,249"
+    },
+    {
+      "representative_listing_id": "rec_2303",
+      "duplicate_listing_ids": [
+        "rec_2303",
+        "rec_2351"
+      ],
+      "group_size": 2,
+      "model_name": "iQOO Z6 Pro 8GB RAM",
+      "price": "24,999"
+    },
+    {
+      "representative_listing_id": "rec_2304",
+      "duplicate_listing_ids": [
+        "rec_2304",
+        "rec_2352"
+      ],
+      "group_size": 2,
+      "model_name": "POCO M4 5G 128GB",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_2497",
+      "duplicate_listing_ids": [
+        "rec_2497",
+        "rec_2545"
+      ],
+      "group_size": 2,
+      "model_name": "Karbonn A19",
+      "price": "9,900"
+    },
+    {
+      "representative_listing_id": "rec_2498",
+      "duplicate_listing_ids": [
+        "rec_2498",
+        "rec_2546"
+      ],
+      "group_size": 2,
+      "model_name": "HTC Desire 210 Dual SIM",
+      "price": "6,299"
+    },
+    {
+      "representative_listing_id": "rec_2499",
+      "duplicate_listing_ids": [
+        "rec_2499",
+        "rec_2547"
+      ],
+      "group_size": 2,
+      "model_name": "OPPO R1",
+      "price": "17,499"
+    },
+    {
+      "representative_listing_id": "rec_2500",
+      "duplicate_listing_ids": [
+        "rec_2500",
+        "rec_2548"
+      ],
+      "group_size": 2,
+      "model_name": "XOLO Q600S",
+      "price": "8,000"
+    },
+    {
+      "representative_listing_id": "rec_2501",
+      "duplicate_listing_ids": [
+        "rec_2501",
+        "rec_2549"
+      ],
+      "group_size": 2,
+      "model_name": "XOLO A500S IPS",
+      "price": "5,000"
+    },
+    {
+      "representative_listing_id": "rec_2502",
+      "duplicate_listing_ids": [
+        "rec_2502",
+        "rec_2550"
+      ],
+      "group_size": 2,
+      "model_name": "LG L80",
+      "price": "7,850"
+    },
+    {
+      "representative_listing_id": "rec_2503",
+      "duplicate_listing_ids": [
+        "rec_2503",
+        "rec_2551"
+      ],
+      "group_size": 2,
+      "model_name": "Alcatel One Touch Idol X Plus",
+      "price": "14,347"
+    },
+    {
+      "representative_listing_id": "rec_2504",
+      "duplicate_listing_ids": [
+        "rec_2504",
+        "rec_2552"
+      ],
+      "group_size": 2,
+      "model_name": "HTC Desire 616",
+      "price": "11,204"
+    },
+    {
+      "representative_listing_id": "rec_2505",
+      "duplicate_listing_ids": [
+        "rec_2505",
+        "rec_2553"
+      ],
+      "group_size": 2,
+      "model_name": "Huawei Honor 3X",
+      "price": "25,999"
+    },
+    {
+      "representative_listing_id": "rec_2506",
+      "duplicate_listing_ids": [
+        "rec_2506",
+        "rec_2554"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Note 4",
+      "price": "31,499"
+    },
+    {
+      "representative_listing_id": "rec_2507",
+      "duplicate_listing_ids": [
+        "rec_2507",
+        "rec_2555"
+      ],
+      "group_size": 2,
+      "model_name": "HTC Desire 516",
+      "price": "7,499"
+    },
+    {
+      "representative_listing_id": "rec_2508",
+      "duplicate_listing_ids": [
+        "rec_2508",
+        "rec_2556"
+      ],
+      "group_size": 2,
+      "model_name": "Sony Xperia Z3",
+      "price": "26,100"
+    },
+    {
+      "representative_listing_id": "rec_2509",
+      "duplicate_listing_ids": [
+        "rec_2509",
+        "rec_2557"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Core 2 Duos",
+      "price": "5,759"
+    },
+    {
+      "representative_listing_id": "rec_2510",
+      "duplicate_listing_ids": [
+        "rec_2510",
+        "rec_2558"
+      ],
+      "group_size": 2,
+      "model_name": "Honor 6",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_2511",
+      "duplicate_listing_ids": [
+        "rec_2511",
+        "rec_2559"
+      ],
+      "group_size": 2,
+      "model_name": "Lava Magnum X604",
+      "price": "6,990"
+    },
+    {
+      "representative_listing_id": "rec_2512",
+      "duplicate_listing_ids": [
+        "rec_2512",
+        "rec_2560"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Mi3",
+      "price": "9,350"
+    },
+    {
+      "representative_listing_id": "rec_2513",
+      "duplicate_listing_ids": [
+        "rec_2513",
+        "rec_2561"
+      ],
+      "group_size": 2,
+      "model_name": "Asus Zenfone 5 (8GB, 1.6GHz)",
+      "price": "8,595"
+    },
+    {
+      "representative_listing_id": "rec_2514",
+      "duplicate_listing_ids": [
+        "rec_2514",
+        "rec_2562"
+      ],
+      "group_size": 2,
+      "model_name": "Karbonn Titanium Octane",
+      "price": "8,499"
+    },
+    {
+      "representative_listing_id": "rec_2515",
+      "duplicate_listing_ids": [
+        "rec_2515",
+        "rec_2563"
+      ],
+      "group_size": 2,
+      "model_name": "Xiaomi Redmi 1S",
+      "price": "5,999"
+    },
+    {
+      "representative_listing_id": "rec_2516",
+      "duplicate_listing_ids": [
+        "rec_2516",
+        "rec_2564"
+      ],
+      "group_size": 2,
+      "model_name": "Asus Zenfone 5 16GB",
+      "price": "9,399"
+    },
+    {
+      "representative_listing_id": "rec_2517",
+      "duplicate_listing_ids": [
+        "rec_2517",
+        "rec_2565"
+      ],
+      "group_size": 2,
+      "model_name": "Asus Zenfone 4 A450CG",
+      "price": "7,499"
+    },
+    {
+      "representative_listing_id": "rec_2518",
+      "duplicate_listing_ids": [
+        "rec_2518",
+        "rec_2566"
+      ],
+      "group_size": 2,
+      "model_name": "Lenovo S850",
+      "price": "7,979"
+    },
+    {
+      "representative_listing_id": "rec_2519",
+      "duplicate_listing_ids": [
+        "rec_2519",
+        "rec_2567"
+      ],
+      "group_size": 2,
+      "model_name": "Panasonic P41",
+      "price": "5,593"
+    },
+    {
+      "representative_listing_id": "rec_2520",
+      "duplicate_listing_ids": [
+        "rec_2520",
+        "rec_2568"
+      ],
+      "group_size": 2,
+      "model_name": "Panasonic P61",
+      "price": "12,491"
+    },
+    {
+      "representative_listing_id": "rec_2521",
+      "duplicate_listing_ids": [
+        "rec_2521",
+        "rec_2569"
+      ],
+      "group_size": 2,
+      "model_name": "Samsung Galaxy Alpha",
+      "price": "20,999"
+    },
+    {
+      "representative_listing_id": "rec_2522",
+      "duplicate_listing_ids": [
+        "rec_2522",
+        "rec_2570"
+      ],
+      "group_size": 2,
+      "model_name": "Panasonic Eluga U",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_2523",
+      "duplicate_listing_ids": [
+        "rec_2523",
+        "rec_2571"
+      ],
+      "group_size": 2,
+      "model_name": "Micromax Canvas L A108",
+      "price": "9,598"
+    },
+    {
+      "representative_listing_id": "rec_2524",
+      "duplicate_listing_ids": [
+        "rec_2524",
+        "rec_2572"
+      ],
+      "group_size": 2,
+      "model_name": "Karbonn Titanium S19",
+      "price": "7,499"
+    },
+    {
+      "representative_listing_id": "rec_2525",
+      "duplicate_listing_ids": [
+        "rec_2525",
+        "rec_2573"
+      ],
+      "group_size": 2,
+      "model_name": "XOLO Play 8X-1000",
+      "price": "6,999"
+    },
+    {
+      "representative_listing_id": "rec_2526",
+      "duplicate_listing_ids": [
+        "rec_2526",
+        "rec_2574"
+      ],
+      "group_size": 2,
+      "model_name": "Micromax Canvas Fire 2 A104",
+      "price": "5,669"
+    },
+    {
+      "representative_listing_id": "rec_2527",
+      "duplicate_listing_ids": [
+        "rec_2527",
+        "rec_2575"
+      ],
+      "group_size": 2,
+      "model_name": "ZTE Blade L2",
+      "price": "6,000"
+    },
+    {
+      "representative_listing_id": "rec_2528",
+      "duplicate_listing_ids": [
+        "rec_2528",
+        "rec_2576"
+      ],
+      "group_size": 2,
+      "model_name": "LG L60",
+      "price": "5,269"
+    },
+    {
+      "representative_listing_id": "rec_2529",
+      "duplicate_listing_ids": [
+        "rec_2529",
+        "rec_2577"
+      ],
+      "group_size": 2,
+      "model_name": "XOLO Play 8X-1200",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_2530",
+      "duplicate_listing_ids": [
+        "rec_2530",
+        "rec_2578"
+      ],
+      "group_size": 2,
+      "model_name": "Lenovo Vibe Z2 Pro (K920)",
+      "price": "29,999"
+    },
+    {
+      "representative_listing_id": "rec_2531",
+      "duplicate_listing_ids": [
+        "rec_2531",
+        "rec_2579"
+      ],
+      "group_size": 2,
+      "model_name": "Micromax Canvas Knight Cameo A290",
+      "price": "6,110"
+    },
+    {
+      "representative_listing_id": "rec_2532",
+      "duplicate_listing_ids": [
+        "rec_2532",
+        "rec_2580"
+      ],
+      "group_size": 2,
+      "model_name": "LG G3 Stylus",
+      "price": "12,974"
+    },
+    {
+      "representative_listing_id": "rec_2533",
+      "duplicate_listing_ids": [
+        "rec_2533",
+        "rec_2581"
+      ],
+      "group_size": 2,
+      "model_name": "XOLO Q700s Plus",
+      "price": "6,269"
+    },
+    {
+      "representative_listing_id": "rec_2534",
+      "duplicate_listing_ids": [
+        "rec_2534",
+        "rec_2582"
+      ],
+      "group_size": 2,
+      "model_name": "Sony Xperia Z3 Compact",
+      "price": "24,291"
+    },
+    {
+      "representative_listing_id": "rec_2535",
+      "duplicate_listing_ids": [
+        "rec_2535",
+        "rec_2583"
+      ],
+      "group_size": 2,
+      "model_name": "HTC Desire 820",
+      "price": "18,950"
+    },
+    {
+      "representative_listing_id": "rec_2536",
+      "duplicate_listing_ids": [
+        "rec_2536",
+        "rec_2584"
+      ],
+      "group_size": 2,
+      "model_name": "Lenovo A536",
+      "price": "5,627"
+    },
+    {
+      "representative_listing_id": "rec_2537",
+      "duplicate_listing_ids": [
+        "rec_2537",
+        "rec_2585"
+      ],
+      "group_size": 2,
+      "model_name": "Sony Xperia E3",
+      "price": "5,499"
+    },
+    {
+      "representative_listing_id": "rec_2538",
+      "duplicate_listing_ids": [
+        "rec_2538",
+        "rec_2586"
+      ],
+      "group_size": 2,
+      "model_name": "Sony Xperia E3 Dual",
+      "price": "5,499"
+    },
+    {
+      "representative_listing_id": "rec_2539",
+      "duplicate_listing_ids": [
+        "rec_2539",
+        "rec_2587"
+      ],
+      "group_size": 2,
+      "model_name": "Karbonn Titanium S10",
+      "price": "6,999"
+    },
+    {
+      "representative_listing_id": "rec_2540",
+      "duplicate_listing_ids": [
+        "rec_2540",
+        "rec_2588"
+      ],
+      "group_size": 2,
+      "model_name": "HTC Desire 820q",
+      "price": "18,990"
+    },
+    {
+      "representative_listing_id": "rec_2541",
+      "duplicate_listing_ids": [
+        "rec_2541",
+        "rec_2589"
+      ],
+      "group_size": 2,
+      "model_name": "HTC Desire 816G",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_2542",
+      "duplicate_listing_ids": [
+        "rec_2542",
+        "rec_2590"
+      ],
+      "group_size": 2,
+      "model_name": "Micromax Canvas 4 Plus A315",
+      "price": "8,199"
+    },
+    {
+      "representative_listing_id": "rec_2543",
+      "duplicate_listing_ids": [
+        "rec_2543",
+        "rec_2591"
+      ],
+      "group_size": 2,
+      "model_name": "Intex Aqua Star Power",
+      "price": "6,919"
+    },
+    {
+      "representative_listing_id": "rec_2544",
+      "duplicate_listing_ids": [
+        "rec_2544",
+        "rec_2592"
+      ],
+      "group_size": 2,
+      "model_name": "Lenovo A328",
+      "price": "5,380"
+    },
+    {
+      "representative_listing_id": "rec_2833",
+      "duplicate_listing_ids": [
+        "rec_2833",
+        "rec_2881"
+      ],
+      "group_size": 2,
+      "model_name": "Panasonic Eluga Arc 2",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_2834",
+      "duplicate_listing_ids": [
+        "rec_2834",
+        "rec_2882"
+      ],
+      "group_size": 2,
+      "model_name": "Yu Yureka S",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_2835",
+      "duplicate_listing_ids": [
+        "rec_2835",
+        "rec_2883"
+      ],
+      "group_size": 2,
+      "model_name": "Asus Zenfone 3 ZE552KL",
+      "price": "28,999"
+    },
+    {
+      "representative_listing_id": "rec_2836",
+      "duplicate_listing_ids": [
+        "rec_2836",
+        "rec_2884"
+      ],
+      "group_size": 2,
+      "model_name": "Intex Aqua Music",
+      "price": "8,490"
+    },
+    {
+      "representative_listing_id": "rec_2837",
+      "duplicate_listing_ids": [
+        "rec_2837",
+        "rec_2885"
+      ],
+      "group_size": 2,
+      "model_name": "Moto M",
+      "price": "14,999"
+    },
+    {
+      "representative_listing_id": "rec_2838",
+      "duplicate_listing_ids": [
+        "rec_2838",
+        "rec_2886"
+      ],
+      "group_size": 2,
+      "model_name": "HTC 10 Lifestyle",
+      "price": "19,490"
+    },
+    {
+      "representative_listing_id": "rec_2839",
+      "duplicate_listing_ids": [
+        "rec_2839",
+        "rec_2887"
+      ],
+      "group_size": 2,
+      "model_name": "Lenovo K6 Note 3GB RAM",
+      "price": "8,499"
+    },
+    {
+      "representative_listing_id": "rec_2840",
+      "duplicate_listing_ids": [
+        "rec_2840",
+        "rec_2888"
+      ],
+      "group_size": 2,
+      "model_name": "Intex Aqua S7",
+      "price": "5,499"
+    },
+    {
+      "representative_listing_id": "rec_2841",
+      "duplicate_listing_ids": [
+        "rec_2841",
+        "rec_2889"
+      ],
+      "group_size": 2,
+      "model_name": "Intex Aqua Power 4G",
+      "price": "5,695"
+    },
+    {
+      "representative_listing_id": "rec_2842",
+      "duplicate_listing_ids": [
+        "rec_2842",
+        "rec_2890"
+      ],
+      "group_size": 2,
+      "model_name": "Micromax Canvas 5 Lite Special Edition",
+      "price": "6,499"
+    },
+    {
+      "representative_listing_id": "rec_2843",
+      "duplicate_listing_ids": [
+        "rec_2843",
+        "rec_2891"
+      ],
+      "group_size": 2,
+      "model_name": "Lenovo A7700",
+      "price": "7,400"
+    },
+    {
+      "representative_listing_id": "rec_2844",
+      "duplicate_listing_ids": [
+        "rec_2844",
+        "rec_2892"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 7 256GB",
+      "price": "74,400"
+    },
+    {
+      "representative_listing_id": "rec_2845",
+      "duplicate_listing_ids": [
+        "rec_2845",
+        "rec_2893"
+      ],
+      "group_size": 2,
+      "model_name": "Apple iPhone 7 Plus 256GB",
+      "price": "80,000"
+    },
+    {
+      "representative_listing_id": "rec_2846",
+      "duplicate_listing_ids": [
+        "rec_2846",
+        "rec_2894"
+      ],
+      "group_size": 2,
+      "model_name": "Lenovo A6600 Plus",
+      "price": "6,099"
+    },
+    {
+      "representative_listing_id": "rec_2847",
+      "duplicate_listing_ids": [
+        "rec_2847",
+        "rec_2895"
+      ],
+      "group_size": 2,
+      "model_name": "XOLO Era 1X",
+      "price": "5,149"
+    },
+    {
+      "representative_listing_id": "rec_2848",
+      "duplicate_listing_ids": [
+        "rec_2848",
+        "rec_2896"
+      ],
+      "group_size": 2,
+      "model_name": "Lava X28",
+      "price": "6,590"
+    },
+    {
+      "representative_listing_id": "rec_2849",
+      "duplicate_listing_ids": [
+        "rec_2849",
+        "rec_2897"
+      ],
+      "group_size": 2,
+      "model_name": "Lenovo Z2 Plus 32GB (Zuk Z2)",
+      "price": "15,499"
+    },
+    {
+      "representative_listing_id": "rec_2850",
+      "duplicate_listing_ids": [
+        "rec_2850",
+        "rec_2898"
+      ],
+      "group_size": 2,
+      "model_name": "Coolpad Note 5",
+      "price": "9,999"
+    },
+    {
+      "representative_listing_id": "rec_2851",
+      "duplicate_listing_ids": [
+        "rec_2851",
+        "rec_2899"
+      ],
+      "group_size": 2,
+      "model_name": "Panasonic P55 Novo 3GB RAM",
+      "price": "6,500"
+    },
+    {
+      "representative_listing_id": "rec_2852",
+      "duplicate_listing_ids": [
+        "rec_2852",
+        "rec_2900"
+      ],
+      "group_size": 2,
+      "model_name": "vivo Y55L",
+      "price": "12,000"
+    },
+    {
+      "representative_listing_id": "rec_2853",
+      "duplicate_listing_ids": [
+        "rec_2853",
+        "rec_2901"
+      ],
+      "group_size": 2,
+      "model_name": "Honor 8 Smart",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_2854",
+      "duplicate_listing_ids": [
+        "rec_2854",
+        "rec_2902"
+      ],
+      "group_size": 2,
+      "model_name": "Asus Zenfone 3 Laser ZC551KL",
+      "price": "19,999"
+    },
+    {
+      "representative_listing_id": "rec_2855",
+      "duplicate_listing_ids": [
+        "rec_2855",
+        "rec_2903"
+      ],
+      "group_size": 2,
+      "model_name": "Google Pixel 128GB",
+      "price": "66,000"
+    },
+    {
+      "representative_listing_id": "rec_2856",
+      "duplicate_listing_ids": [
+        "rec_2856",
+        "rec_2904"
+      ],
+      "group_size": 2,
+      "model_name": "Intex Aqua Strong 5.2",
+      "price": "5,799"
+    },
+    {
+      "representative_listing_id": "rec_2857",
+      "duplicate_listing_ids": [
+        "rec_2857",
+        "rec_2905"
+      ],
+      "group_size": 2,
+      "model_name": "Gionee P7 Max",
+      "price": "5,999"
+    },
+    {
+      "representative_listing_id": "rec_2858",
+      "duplicate_listing_ids": [
+        "rec_2858",
+        "rec_2906"
+      ],
+      "group_size": 2,
+      "model_name": "Panasonic Eluga Tapp",
+      "price": "6,500"
+    },
+    {
+      "representative_listing_id": "rec_2859",
+      "duplicate_listing_ids": [
+        "rec_2859",
+        "rec_2907"
+      ],
+      "group_size": 2,
+      "model_name": "Intex Aqua 5.5 VR",
+      "price": "5,849"
+    },
+    {
+      "representative_listing_id": "rec_2860",
+      "duplicate_listing_ids": [
+        "rec_2860",
+        "rec_2908"
+      ],
+      "group_size": 2,
+      "model_name": "InFocus EPIC 1",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_2861",
+      "duplicate_listing_ids": [
+        "rec_2861",
+        "rec_2909"
+      ],
+      "group_size": 2,
+      "model_name": "Karbonn Titanium Vista",
+      "price": "5,986"
+    },
+    {
+      "representative_listing_id": "rec_2862",
+      "duplicate_listing_ids": [
+        "rec_2862",
+        "rec_2910"
+      ],
+      "group_size": 2,
+      "model_name": "Videocon Delite 11",
+      "price": "5,890"
+    },
+    {
+      "representative_listing_id": "rec_2863",
+      "duplicate_listing_ids": [
+        "rec_2863",
+        "rec_2911"
+      ],
+      "group_size": 2,
+      "model_name": "XOLO Era 2",
+      "price": "5,299"
+    },
+    {
+      "representative_listing_id": "rec_2864",
+      "duplicate_listing_ids": [
+        "rec_2864",
+        "rec_2912"
+      ],
+      "group_size": 2,
+      "model_name": "Intex Aqua Craze II",
+      "price": "5,429"
+    },
+    {
+      "representative_listing_id": "rec_2865",
+      "duplicate_listing_ids": [
+        "rec_2865",
+        "rec_2913"
+      ],
+      "group_size": 2,
+      "model_name": "Meizu M5 32GB",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_2866",
+      "duplicate_listing_ids": [
+        "rec_2866",
+        "rec_2914"
+      ],
+      "group_size": 2,
+      "model_name": "Asus Zenfone 3 Max",
+      "price": "13,999"
+    },
+    {
+      "representative_listing_id": "rec_2867",
+      "duplicate_listing_ids": [
+        "rec_2867",
+        "rec_2915"
+      ],
+      "group_size": 2,
+      "model_name": "Panasonic Eluga Mark 2",
+      "price": "13,990"
+    },
+    {
+      "representative_listing_id": "rec_2868",
+      "duplicate_listing_ids": [
+        "rec_2868",
+        "rec_2916"
+      ],
+      "group_size": 2,
+      "model_name": "Coolpad Note 3S",
+      "price": "10,999"
+    },
+    {
+      "representative_listing_id": "rec_2869",
+      "duplicate_listing_ids": [
+        "rec_2869",
+        "rec_2917"
+      ],
+      "group_size": 2,
+      "model_name": "Coolpad Mega 3",
+      "price": "7,999"
+    },
+    {
+      "representative_listing_id": "rec_2870",
+      "duplicate_listing_ids": [
+        "rec_2870",
+        "rec_2918"
+      ],
+      "group_size": 2,
+      "model_name": "Asus Zenfone 3 Deluxe 256GB",
+      "price": "63,999"
+    },
+    {
+      "representative_listing_id": "rec_2871",
+      "duplicate_listing_ids": [
+        "rec_2871",
+        "rec_2919"
+      ],
+      "group_size": 2,
+      "model_name": "Lava X50 Plus",
+      "price": "9,199"
+    },
+    {
+      "representative_listing_id": "rec_2872",
+      "duplicate_listing_ids": [
+        "rec_2872",
+        "rec_2920"
+      ],
+      "group_size": 2,
+      "model_name": "Moto G5",
+      "price": "8,990"
+    },
+    {
+      "representative_listing_id": "rec_2873",
+      "duplicate_listing_ids": [
+        "rec_2873",
+        "rec_2921"
+      ],
+      "group_size": 2,
+      "model_name": "Micromax Vdeo 1",
+      "price": "5,370"
+    },
+    {
+      "representative_listing_id": "rec_2874",
+      "duplicate_listing_ids": [
+        "rec_2874",
+        "rec_2922"
+      ],
+      "group_size": 2,
+      "model_name": "Alcatel Idol 4",
+      "price": "16,999"
+    },
+    {
+      "representative_listing_id": "rec_2875",
+      "duplicate_listing_ids": [
+        "rec_2875",
+        "rec_2923"
+      ],
+      "group_size": 2,
+      "model_name": "Panasonic P88",
+      "price": "11,590"
+    },
+    {
+      "representative_listing_id": "rec_2876",
+      "duplicate_listing_ids": [
+        "rec_2876",
+        "rec_2924"
+      ],
+      "group_size": 2,
+      "model_name": "LG K8 2017",
+      "price": "8,999"
+    },
+    {
+      "representative_listing_id": "rec_2877",
+      "duplicate_listing_ids": [
+        "rec_2877",
+        "rec_2925"
+      ],
+      "group_size": 2,
+      "model_name": "Honor 6X 32GB",
+      "price": "11,999"
+    },
+    {
+      "representative_listing_id": "rec_2878",
+      "duplicate_listing_ids": [
+        "rec_2878",
+        "rec_2926"
+      ],
+      "group_size": 2,
+      "model_name": "Videocon Delite 21",
+      "price": "6,153"
+    },
+    {
+      "representative_listing_id": "rec_2879",
+      "duplicate_listing_ids": [
+        "rec_2879",
+        "rec_2927"
+      ],
+      "group_size": 2,
+      "model_name": "Karbonn Titanium Vista 4G",
+      "price": "5,986"
+    },
+    {
+      "representative_listing_id": "rec_2880",
+      "duplicate_listing_ids": [
+        "rec_2880",
+        "rec_2928"
+      ],
+      "group_size": 2,
+      "model_name": "Karbonn Aura Note 4G",
+      "price": "6,939"
+    }
+  ]
+}

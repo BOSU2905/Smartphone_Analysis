@@ -1,0 +1,232 @@
+{
+  "dataset_integrity_overview": {
+    "total_raw_rows": 2928,
+    "exact_duplicate_rows_removed": 672,
+    "retained_unique_records": 2256
+  },
+  "missingness_audit": [
+    {
+      "attribute": "ram_capacity_gb",
+      "missing_count": 8,
+      "valid_count": 2248,
+      "missing_percentage": 0.35
+    },
+    {
+      "attribute": "storage_capacity_gb",
+      "missing_count": 2,
+      "valid_count": 2254,
+      "missing_percentage": 0.09
+    },
+    {
+      "attribute": "battery_capacity_mah",
+      "missing_count": 0,
+      "valid_count": 2256,
+      "missing_percentage": 0.0
+    },
+    {
+      "attribute": "charging_wattage",
+      "missing_count": 935,
+      "valid_count": 1321,
+      "missing_percentage": 41.45
+    },
+    {
+      "attribute": "screen_size_inches",
+      "missing_count": 1,
+      "valid_count": 2255,
+      "missing_percentage": 0.04
+    },
+    {
+      "attribute": "refresh_rate_hz",
+      "missing_count": 1123,
+      "valid_count": 1133,
+      "missing_percentage": 49.78
+    },
+    {
+      "attribute": "display_panel_family",
+      "missing_count": 2,
+      "valid_count": 2254,
+      "missing_percentage": 0.09
+    },
+    {
+      "attribute": "rear_main_sensor_mp",
+      "missing_count": 0,
+      "valid_count": 2256,
+      "missing_percentage": 0.0
+    },
+    {
+      "attribute": "front_main_sensor_mp",
+      "missing_count": 32,
+      "valid_count": 2224,
+      "missing_percentage": 1.42
+    },
+    {
+      "attribute": "processor_manufacturer",
+      "missing_count": 60,
+      "valid_count": 2196,
+      "missing_percentage": 2.66
+    },
+    {
+      "attribute": "processor_model",
+      "missing_count": 0,
+      "valid_count": 2256,
+      "missing_percentage": 0.0
+    },
+    {
+      "attribute": "operating_system_raw",
+      "missing_count": 9,
+      "valid_count": 2247,
+      "missing_percentage": 0.4
+    },
+    {
+      "attribute": "expert_rating",
+      "missing_count": 858,
+      "valid_count": 1398,
+      "missing_percentage": 38.03
+    },
+    {
+      "attribute": "user_rating_score",
+      "missing_count": 71,
+      "valid_count": 2185,
+      "missing_percentage": 3.15
+    },
+    {
+      "attribute": "review_snippet",
+      "missing_count": 1186,
+      "valid_count": 1070,
+      "missing_percentage": 52.57
+    },
+    {
+      "attribute": "review_url",
+      "missing_count": 1186,
+      "valid_count": 1070,
+      "missing_percentage": 52.57
+    },
+    {
+      "attribute": "price_per_gb_ram_inr",
+      "missing_count": 8,
+      "valid_count": 2248,
+      "missing_percentage": 0.35
+    },
+    {
+      "attribute": "price_per_gb_storage_inr",
+      "missing_count": 2,
+      "valid_count": 2254,
+      "missing_percentage": 0.09
+    },
+    {
+      "attribute": "price_per_1000mah_battery_inr",
+      "missing_count": 0,
+      "valid_count": 2256,
+      "missing_percentage": 0.0
+    },
+    {
+      "attribute": "price_per_charging_watt_inr",
+      "missing_count": 935,
+      "valid_count": 1321,
+      "missing_percentage": 41.45
+    },
+    {
+      "attribute": "price_per_display_inch_inr",
+      "missing_count": 1,
+      "valid_count": 2255,
+      "missing_percentage": 0.04
+    }
+  ],
+  "quality_flags_audit": [
+    {
+      "flag": "MISSING_REVIEW_SNIPPET",
+      "frequency": 1186,
+      "percentage": 52.57
+    },
+    {
+      "flag": "MISSING_REVIEW_URL",
+      "frequency": 1186,
+      "percentage": 52.57
+    },
+    {
+      "flag": "MISSING_REFRESH_RATE",
+      "frequency": 1123,
+      "percentage": 49.78
+    },
+    {
+      "flag": "MISSING_CHARGING_WATTAGE",
+      "frequency": 935,
+      "percentage": 41.45
+    },
+    {
+      "flag": "MISSING_EXPERT_RATING",
+      "frequency": 858,
+      "percentage": 38.03
+    },
+    {
+      "flag": "MISSING_USER_RATING",
+      "frequency": 71,
+      "percentage": 3.15
+    },
+    {
+      "flag": "FRACTIONAL_MEMORY_MB",
+      "frequency": 62,
+      "percentage": 2.75
+    },
+    {
+      "flag": "UNRESOLVED_PROCESSOR_MANUFACTURER",
+      "frequency": 60,
+      "percentage": 2.66
+    },
+    {
+      "flag": "MISSING_FRONT_CAMERAS",
+      "frequency": 32,
+      "percentage": 1.42
+    },
+    {
+      "flag": "UNPARSEABLE_FORMAT",
+      "frequency": 32,
+      "percentage": 1.42
+    },
+    {
+      "flag": "FRACTIONAL_STORAGE_MB",
+      "frequency": 20,
+      "percentage": 0.89
+    },
+    {
+      "flag": "1TB_STORAGE_UNIT",
+      "frequency": 12,
+      "percentage": 0.53
+    },
+    {
+      "flag": "UNKNOWN_PARENT_COMPANY",
+      "frequency": 8,
+      "percentage": 0.35
+    },
+    {
+      "flag": "MISSING_RAM",
+      "frequency": 8,
+      "percentage": 0.35
+    },
+    {
+      "flag": "UNKNOWN_DISPLAY_TECH",
+      "frequency": 2,
+      "percentage": 0.09
+    },
+    {
+      "flag": "MISSING_STORAGE",
+      "frequency": 2,
+      "percentage": 0.09
+    },
+    {
+      "flag": "MISSING_DISPLAY_SIZE",
+      "frequency": 1,
+      "percentage": 0.04
+    }
+  ],
+  "invariant_verifications": {
+    "corrupted_1tb_storage_count": 0,
+    "is_1tb_storage_intact": true,
+    "misclassified_kirin_count": 0,
+    "is_kirin_classification_intact": true,
+    "zero_denominator_ram_count": 0,
+    "zero_denominator_storage_count": 0,
+    "zero_denominator_battery_count": 0,
+    "exact_deduplication_integrity": true
+  }
+}
