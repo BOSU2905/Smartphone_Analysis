@@ -1,0 +1,37 @@
+{
+  "inputs": {
+    "csv_path": "Data\\processed\\smartphones_cleaned.csv",
+    "csv_sha256": "7a2f4c32a7296608a1e64e40dcbc77e4de5e9d76454b3c2577c630bebccc09fa",
+    "csv_size_bytes": 1433995,
+    "json_path": "Data\\processed\\smartphones_cleaned.json",
+    "json_sha256": "5233a50aebbf27c44867ebd1a763dbf96858f4a49ac9276caec03ada66d45ba5",
+    "json_size_bytes": 4838018
+  },
+  "outputs": {
+    "exploratory_summary.json": {
+      "size_bytes": 13448,
+      "sha256": "3b8cce796324e534f88c1e0097f2a9297579c4246291062b137d4c32b7f6064c"
+    },
+    "vif_diagnostics.json": {
+      "size_bytes": 4014,
+      "sha256": "5011a5d59dde6e959d0587caf65c7e7569559d8a908974f4fa68e8403e5f3dcc"
+    },
+    "model4_within_diagnostics.json": {
+      "size_bytes": 10449,
+      "sha256": "5a577860fce9c76a993b563a76155b70749e629cd78db7603f780a266440fbc1"
+    },
+    "correlation_matrix.json": {
+      "size_bytes": 3358,
+      "sha256": "770af3f3e0f2f50bbc8153de365fe35e045541cc5c54f660964caaa69537a888"
+    }
+  },
+  "env": {
+    "python_version": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "win32",
+    "numpy_version": "2.4.4",
+    "pandas_version": "3.0.2",
+    "scipy_version": "1.18.1",
+    "statsmodels_version": "0.15.0",
+    "random_seed": 42
+  }
+}

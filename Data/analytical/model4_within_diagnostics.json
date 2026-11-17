@@ -1,0 +1,317 @@
+{
+  "multi_variant_population": {
+    "total_configurations": 1092,
+    "total_device_clusters": 483,
+    "total_upgrade_steps": 609
+  },
+  "variation_distribution": {
+    "both_vary": {
+      "device_count": 227,
+      "config_count": 543,
+      "share_of_devices_pct": 46.99792960662526
+    },
+    "ram_only_vary": {
+      "device_count": 121,
+      "config_count": 251,
+      "share_of_devices_pct": 25.051759834368532
+    },
+    "storage_only_vary": {
+      "device_count": 134,
+      "config_count": 296,
+      "share_of_devices_pct": 27.74327122153209
+    },
+    "neither_vary": {
+      "device_count": 1,
+      "config_count": 2,
+      "share_of_devices_pct": 0.2070393374741201
+    }
+  },
+  "reconciliation_of_invariant_subsample": {
+    "total_multi_variant_devices": 483,
+    "total_multi_variant_configs": 1092,
+    "excluded_devices_count": 7,
+    "excluded_configs_count": 17,
+    "strictly_invariant_devices": 476,
+    "strictly_invariant_configs": 1075,
+    "all_candidate_exclusion_devices": [
+      {
+        "device_id": "asus-zenfone-2-laser-ze550kl",
+        "category": "Changing SoC Model",
+        "config_count": 2,
+        "reason": "Processor model differs across configurations",
+        "details": [
+          {
+            "attribute": "processor_model",
+            "values": [
+              "Snapdragon 410",
+              "Snapdragon 615"
+            ]
+          }
+        ],
+        "in_stage_03_methodology": true,
+        "in_revision_02": true,
+        "in_comprehensive": true
+      },
+      {
+        "device_id": "asus-zenfone-3-deluxe",
+        "category": "Changing SoC Model",
+        "config_count": 2,
+        "reason": "Processor model differs across configurations",
+        "details": [
+          {
+            "attribute": "processor_model",
+            "values": [
+              "Snapdragon 820",
+              "Snapdragon 821"
+            ]
+          }
+        ],
+        "in_stage_03_methodology": true,
+        "in_revision_02": true,
+        "in_comprehensive": true
+      },
+      {
+        "device_id": "samsung-galaxy-on-nxt",
+        "category": "Processor String Inconsistency",
+        "config_count": 3,
+        "reason": "Processor model string inconsistency (string truncation artifact)",
+        "details": [
+          {
+            "attribute": "processor_model",
+            "values": [
+              "Samsung Exynos 7 Octa",
+              "Samsung Exynos 7 Octa Tru-"
+            ]
+          }
+        ],
+        "in_stage_03_methodology": true,
+        "in_revision_02": true,
+        "in_comprehensive": true
+      },
+      {
+        "device_id": "vivo-y91",
+        "category": "Changing SoC & Vendor",
+        "config_count": 2,
+        "reason": "Processor model and manufacturer differ across configurations",
+        "details": [
+          {
+            "attribute": "processor_model",
+            "values": [
+              "Qualcomm Snapdragon 439",
+              "MediaTek Helio P22 Tru-"
+            ]
+          },
+          {
+            "attribute": "processor_manufacturer",
+            "values": [
+              "Qualcomm",
+              "MediaTek"
+            ]
+          }
+        ],
+        "in_stage_03_methodology": true,
+        "in_revision_02": true,
+        "in_comprehensive": true
+      },
+      {
+        "device_id": "panasonic-eluga-i2",
+        "category": "Changing Front Camera",
+        "config_count": 3,
+        "reason": "Front camera sensor differs across configurations",
+        "details": [
+          {
+            "attribute": "front_main_sensor_mp",
+            "values": [
+              2.0,
+              5.0
+            ]
+          }
+        ],
+        "in_stage_03_methodology": true,
+        "in_revision_02": true,
+        "in_comprehensive": true
+      },
+      {
+        "device_id": "vivo-y91i",
+        "category": "Changing Front Camera",
+        "config_count": 3,
+        "reason": "Front camera sensor differs across configurations",
+        "details": [
+          {
+            "attribute": "front_main_sensor_mp",
+            "values": [
+              5.0,
+              8.0
+            ]
+          }
+        ],
+        "in_stage_03_methodology": true,
+        "in_revision_02": true,
+        "in_comprehensive": true
+      },
+      {
+        "device_id": "xiaomi-redmi-k20-pro",
+        "category": "Charging Wattage Unstated / Missingness",
+        "config_count": 2,
+        "reason": "Charging wattage unstated on one listing (NaN vs 27W; physical hardware identical)",
+        "details": [
+          {
+            "attribute": "charging_wattage",
+            "values": [
+              "NaN",
+              "27.0W"
+            ]
+          }
+        ],
+        "in_stage_03_methodology": true,
+        "in_revision_02": false,
+        "in_comprehensive": true
+      },
+      {
+        "device_id": "oneplus-7-pro",
+        "category": "Charging Wattage Unstated / Missingness",
+        "config_count": 3,
+        "reason": "Charging wattage unstated on one listing (NaN vs 30W; physical hardware identical)",
+        "details": [
+          {
+            "attribute": "charging_wattage",
+            "values": [
+              "NaN",
+              "30.0W"
+            ]
+          }
+        ],
+        "in_stage_03_methodology": true,
+        "in_revision_02": false,
+        "in_comprehensive": true
+      },
+      {
+        "device_id": "xiaomi-mi-max",
+        "category": "Degenerate Memory Tier (Zero Variation)",
+        "config_count": 2,
+        "reason": "Zero within-device RAM and Storage variation (3GB RAM, 32GB Storage in both listings)",
+        "details": [
+          {
+            "attribute": "memory_variation",
+            "values": [
+              "RAM: 3GB==3GB",
+              "Storage: 32GB==32GB"
+            ]
+          }
+        ],
+        "in_stage_03_methodology": false,
+        "in_revision_02": true,
+        "in_comprehensive": true
+      }
+    ],
+    "subsample_options": {
+      "stage_03_baseline_8_devices": {
+        "excluded_devices_count": 8,
+        "excluded_configs_count": 20,
+        "strictly_invariant_devices": 475,
+        "strictly_invariant_configs": 1072,
+        "within_correlation": 0.3320787632859203,
+        "within_vif": 1.1239444398844156,
+        "standardized_condition_number": 1.9943650389666379,
+        "excluded_device_ids": [
+          "asus-zenfone-2-laser-ze550kl",
+          "asus-zenfone-3-deluxe",
+          "oneplus-7-pro",
+          "panasonic-eluga-i2",
+          "samsung-galaxy-on-nxt",
+          "vivo-y91",
+          "vivo-y91i",
+          "xiaomi-redmi-k20-pro"
+        ]
+      },
+      "hardware_conflicting_only_6_devices": {
+        "excluded_devices_count": 6,
+        "excluded_configs_count": 15,
+        "strictly_invariant_devices": 477,
+        "strictly_invariant_configs": 1077,
+        "within_correlation": 0.3338684279621471,
+        "within_vif": 1.125452030029474,
+        "standardized_condition_number": 2.0024098600844438,
+        "excluded_device_ids": [
+          "asus-zenfone-2-laser-ze550kl",
+          "asus-zenfone-3-deluxe",
+          "panasonic-eluga-i2",
+          "samsung-galaxy-on-nxt",
+          "vivo-y91",
+          "vivo-y91i"
+        ]
+      },
+      "revision_02_7_devices": {
+        "excluded_devices_count": 7,
+        "excluded_configs_count": 17,
+        "strictly_invariant_devices": 476,
+        "strictly_invariant_configs": 1075,
+        "within_correlation": 0.33386842796214716,
+        "within_vif": 1.125452030029474,
+        "standardized_condition_number": 2.002409860084443,
+        "excluded_device_ids": [
+          "asus-zenfone-2-laser-ze550kl",
+          "asus-zenfone-3-deluxe",
+          "panasonic-eluga-i2",
+          "samsung-galaxy-on-nxt",
+          "vivo-y91",
+          "vivo-y91i",
+          "xiaomi-mi-max"
+        ]
+      },
+      "comprehensive_clean_9_devices": {
+        "excluded_devices_count": 9,
+        "excluded_configs_count": 22,
+        "strictly_invariant_devices": 474,
+        "strictly_invariant_configs": 1070,
+        "within_correlation": 0.33207876328592023,
+        "within_vif": 1.1239444398844156,
+        "standardized_condition_number": 1.9943650389666372,
+        "excluded_device_ids": [
+          "asus-zenfone-2-laser-ze550kl",
+          "asus-zenfone-3-deluxe",
+          "oneplus-7-pro",
+          "panasonic-eluga-i2",
+          "samsung-galaxy-on-nxt",
+          "vivo-y91",
+          "vivo-y91i",
+          "xiaomi-mi-max",
+          "xiaomi-redmi-k20-pro"
+        ]
+      }
+    }
+  },
+  "demeaned_design_matrix_diagnostics": {
+    "matrix_rank": 2,
+    "is_full_rank": true,
+    "unscaled_condition_number": 4824.422941307189,
+    "rescaled_100gb_condition_number": 3.024314697073103,
+    "standardized_condition_number": 1.9992349504808056,
+    "unscaled_eigenvalues": [
+      1488.5956983882934,
+      7181615.2376349475
+    ],
+    "demeaned_correlation": 0.3331632789623964,
+    "within_vif": 1.1248565715127994,
+    "scaling_explanation": "The unscaled condition number (4824.42) is entirely an artifact of regressor scale differences: within-device storage variance is ~5,000 times larger than RAM variance. When variables are standardized or storage is measured in 100GB units, the condition number drops to <= 3.02, confirming that the design matrix is well-conditioned.",
+    "identification_caveat": "Full column rank confirms mathematical invertibility, but does NOT prove causal identification. It establishes only that RAM and storage upgrade price associations can be separately estimated within device clusters in the observational catalog."
+  },
+  "hardware_invariant_subsample_diagnostics": {
+    "excluded_devices_count": 7,
+    "excluded_configs_count": 17,
+    "strictly_invariant_devices": 476,
+    "strictly_invariant_configs": 1075,
+    "within_correlation": 0.33386842796214716,
+    "within_vif": 1.125452030029474,
+    "standardized_condition_number": 2.002409860084443,
+    "excluded_device_ids": [
+      "asus-zenfone-2-laser-ze550kl",
+      "asus-zenfone-3-deluxe",
+      "panasonic-eluga-i2",
+      "samsung-galaxy-on-nxt",
+      "vivo-y91",
+      "vivo-y91i",
+      "xiaomi-mi-max"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "sample_size": 2222,
+  "variables": [
+    "ram_capacity_gb",
+    "storage_capacity_gb",
+    "battery_capacity_mah",
+    "screen_size_inches",
+    "rear_main_sensor_mp",
+    "front_main_sensor_mp"
+  ],
+  "pearson": {
+    "ram_capacity_gb": {
+      "ram_capacity_gb": 1.0,
+      "storage_capacity_gb": 0.7367,
+      "battery_capacity_mah": 0.5407,
+      "screen_size_inches": 0.684,
+      "rear_main_sensor_mp": 0.6421,
+      "front_main_sensor_mp": 0.6566
+    },
+    "storage_capacity_gb": {
+      "ram_capacity_gb": 0.7367,
+      "storage_capacity_gb": 1.0,
+      "battery_capacity_mah": 0.3567,
+      "screen_size_inches": 0.5126,
+      "rear_main_sensor_mp": 0.4843,
+      "front_main_sensor_mp": 0.4734
+    },
+    "battery_capacity_mah": {
+      "ram_capacity_gb": 0.5407,
+      "storage_capacity_gb": 0.3567,
+      "battery_capacity_mah": 1.0,
+      "screen_size_inches": 0.7645,
+      "rear_main_sensor_mp": 0.4971,
+      "front_main_sensor_mp": 0.3753
+    },
+    "screen_size_inches": {
+      "ram_capacity_gb": 0.684,
+      "storage_capacity_gb": 0.5126,
+      "battery_capacity_mah": 0.7645,
+      "screen_size_inches": 1.0,
+      "rear_main_sensor_mp": 0.5634,
+      "front_main_sensor_mp": 0.5033
+    },
+    "rear_main_sensor_mp": {
+      "ram_capacity_gb": 0.6421,
+      "storage_capacity_gb": 0.4843,
+      "battery_capacity_mah": 0.4971,
+      "screen_size_inches": 0.5634,
+      "rear_main_sensor_mp": 1.0,
+      "front_main_sensor_mp": 0.5187
+    },
+    "front_main_sensor_mp": {
+      "ram_capacity_gb": 0.6566,
+      "storage_capacity_gb": 0.4734,
+      "battery_capacity_mah": 0.3753,
+      "screen_size_inches": 0.5033,
+      "rear_main_sensor_mp": 0.5187,
+      "front_main_sensor_mp": 1.0
+    }
+  },
+  "spearman": {
+    "ram_capacity_gb": {
+      "ram_capacity_gb": 1.0,
+      "storage_capacity_gb": 0.9074,
+      "battery_capacity_mah": 0.5872,
+      "screen_size_inches": 0.7445,
+      "rear_main_sensor_mp": 0.7583,
+      "front_main_sensor_mp": 0.7955
+    },
+    "storage_capacity_gb": {
+      "ram_capacity_gb": 0.9074,
+      "storage_capacity_gb": 1.0,
+      "battery_capacity_mah": 0.5817,
+      "screen_size_inches": 0.7457,
+      "rear_main_sensor_mp": 0.6951,
+      "front_main_sensor_mp": 0.7373
+    },
+    "battery_capacity_mah": {
+      "ram_capacity_gb": 0.5872,
+      "storage_capacity_gb": 0.5817,
+      "battery_capacity_mah": 1.0,
+      "screen_size_inches": 0.7899,
+      "rear_main_sensor_mp": 0.6384,
+      "front_main_sensor_mp": 0.4774
+    },
+    "screen_size_inches": {
+      "ram_capacity_gb": 0.7445,
+      "storage_capacity_gb": 0.7457,
+      "battery_capacity_mah": 0.7899,
+      "screen_size_inches": 1.0,
+      "rear_main_sensor_mp": 0.6981,
+      "front_main_sensor_mp": 0.5991
+    },
+    "rear_main_sensor_mp": {
+      "ram_capacity_gb": 0.7583,
+      "storage_capacity_gb": 0.6951,
+      "battery_capacity_mah": 0.6384,
+      "screen_size_inches": 0.6981,
+      "rear_main_sensor_mp": 1.0,
+      "front_main_sensor_mp": 0.7097
+    },
+    "front_main_sensor_mp": {
+      "ram_capacity_gb": 0.7955,
+      "storage_capacity_gb": 0.7373,
+      "battery_capacity_mah": 0.4774,
+      "screen_size_inches": 0.5991,
+      "rear_main_sensor_mp": 0.7097,
+      "front_main_sensor_mp": 1.0
+    }
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "metadata": {
+    "title": "Phase 04 Stage 04.2 Exploratory Statistical Analysis Summary (Revised)",
+    "environment": {
+      "python_version": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+      "platform": "win32",
+      "numpy_version": "2.4.4",
+      "pandas_version": "3.0.2",
+      "scipy_version": "1.18.1",
+      "statsmodels_version": "0.15.0",
+      "random_seed": 42
+    },
+    "inputs": {
+      "csv_path": "Data\\processed\\smartphones_cleaned.csv",
+      "csv_sha256": "7a2f4c32a7296608a1e64e40dcbc77e4de5e9d76454b3c2577c630bebccc09fa",
+      "csv_size_bytes": 1433995,
+      "json_path": "Data\\processed\\smartphones_cleaned.json",
+      "json_sha256": "5233a50aebbf27c44867ebd1a763dbf96858f4a49ac9276caec03ada66d45ba5",
+      "json_size_bytes": 4838018
+    }
+  },
+  "price_distributions": {
+    "raw_price_inr": {
+      "n": 2256,
+      "min": 5000.0,
+      "max": 200999.0,
+      "mean": 22210.675088652482,
+      "std": 23948.43355367682,
+      "median": 14499.0,
+      "iqr": 16050.75,
+      "skewness": 3.354290779058154,
+      "kurtosis": 14.017707679513919,
+      "jarque_bera_stat": 22701.112340358963,
+      "jarque_bera_pvalue": 0.0,
+      "is_statistically_normal": false,
+      "percentiles": {
+        "p1": 5324.45,
+        "p5": 5999.0,
+        "p10": 6799.5,
+        "p25": 8999.0,
+        "p50": 14499.0,
+        "p75": 25049.75,
+        "p90": 42999.0,
+        "p95": 64999.0,
+        "p99": 138675.49999999956
+      }
+    },
+    "log_price_inr": {
+      "n": 2256,
+      "min": 8.517193191416238,
+      "max": 12.211055211904458,
+      "mean": 9.68278556963314,
+      "std": 0.7381762600997491,
+      "median": 9.581834960513193,
+      "iqr": 1.0237444863969198,
+      "skewness": 0.8004563697417254,
+      "kurtosis": 0.31137973553437437,
+      "jarque_bera_stat": 250.02862027933583,
+      "jarque_bera_pvalue": 5.093014907752955e-55,
+      "is_statistically_normal": false,
+      "percentiles": {
+        "p1": 8.580063122674222,
+        "p5": 8.699348067653093,
+        "p10": 8.82460435634533,
+        "p25": 9.104868739033948,
+        "p50": 9.581834960513193,
+        "p75": 10.128613225430868,
+        "p90": 10.668932138591325,
+        "p95": 11.082127164144046,
+        "p99": 11.839855234175749
+      }
+    },
+    "box_cox_exploratory_lambda": -0.4527616462263447,
+    "transformation_rationale": "The Box-Cox profile likelihood yields lambda = -0.4528 under assumed homoskedasticity. However, the selected semi-log specification (lambda = 0) represents a distinct econometric choice: it delivers scale-invariance, variance stabilization across price tiers, and natural economic interpretability as percentage semi-elasticities without the uninterpretable inverse square-root scale. Log-price remains statistically non-normal (Jarque-Bera p < 0.0001), but with substantially reduced skewness (0.80 vs 3.35)."
+  },
+  "specification_distributions": {
+    "ram_capacity_gb": {
+      "valid_count": 2248,
+      "missing_count": 8,
+      "missing_percentage": 0.3546099290780142,
+      "mean": 5.195771241103203,
+      "std": 3.211148140138386,
+      "median": 4.0,
+      "min": 0.03125,
+      "max": 18.0,
+      "q25": 3.0,
+      "q75": 8.0,
+      "skewness": 0.7389908744626744,
+      "kurtosis": 0.22153012809532013,
+      "bivariate_associations": {
+        "pearson_with_raw_price": 0.48472116329429576,
+        "pearson_raw_price_pvalue": 8.332953536403363e-133,
+        "spearman_with_raw_price": 0.677614266252851,
+        "spearman_raw_price_pvalue": 4.2683270251968333e-302,
+        "pearson_with_log_price": 0.6476594329406351,
+        "pearson_log_price_pvalue": 1.5695431449289378e-267,
+        "spearman_with_log_price": 0.677614266252851,
+        "spearman_log_price_pvalue": 4.2683270251968333e-302
+      }
+    },
+    "storage_capacity_gb": {
+      "valid_count": 2254,
+      "missing_count": 2,
+      "missing_percentage": 0.08865248226950355,
+      "mean": 113.39481425382652,
+      "std": 121.80721260313834,
+      "median": 64.0,
+      "min": 0.0390625,
+      "max": 1024.0,
+      "q25": 32.0,
+      "q75": 128.0,
+      "skewness": 3.1694762367389413,
+      "kurtosis": 16.949943141685253,
+      "bivariate_associations": {
+        "pearson_with_raw_price": 0.6984294929768726,
+        "pearson_raw_price_pvalue": 0.0,
+        "spearman_with_raw_price": 0.685849803199084,
+        "spearman_raw_price_pvalue": 0.0,
+        "pearson_with_log_price": 0.6714760199846923,
+        "pearson_log_price_pvalue": 1.8350131708094722e-295,
+        "spearman_with_log_price": 0.685849803199084,
+        "spearman_log_price_pvalue": 0.0
+      }
+    },
+    "battery_capacity_mah": {
+      "valid_count": 2256,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "mean": 4140.589539007092,
+      "std": 1361.1677541546399,
+      "median": 4500.0,
+      "min": 860.0,
+      "max": 22000.0,
+      "q25": 3010.0,
+      "q75": 5000.0,
+      "skewness": 1.886896703696135,
+      "kurtosis": 26.05570432513203,
+      "bivariate_associations": {
+        "pearson_with_raw_price": 0.07761364706251833,
+        "pearson_raw_price_pvalue": 0.00022428238183264148,
+        "spearman_with_raw_price": 0.16421418109708147,
+        "spearman_raw_price_pvalue": 4.2018449638955825e-15,
+        "pearson_with_log_price": 0.18035248450010904,
+        "pearson_log_price_pvalue": 6.007903198865604e-18,
+        "spearman_with_log_price": 0.16421418109708147,
+        "spearman_log_price_pvalue": 4.2018449638955825e-15
+      }
+    },
+    "charging_wattage": {
+      "valid_count": 1321,
+      "missing_count": 935,
+      "missing_percentage": 41.445035460992905,
+      "mean": 36.61998485995458,
+      "std": 28.06206908827149,
+      "median": 25.0,
+      "min": 7.0,
+      "max": 180.0,
+      "q25": 18.0,
+      "q75": 45.0,
+      "skewness": 1.6448698035217684,
+      "kurtosis": 2.593975715683385,
+      "bivariate_associations": {
+        "pearson_with_raw_price": 0.22551736569496833,
+        "pearson_raw_price_pvalue": 1.0777510843077272e-16,
+        "spearman_with_raw_price": 0.6237680453653048,
+        "spearman_raw_price_pvalue": 2.51066934141321e-143,
+        "pearson_with_log_price": 0.44926527328251326,
+        "pearson_log_price_pvalue": 1.3077550247055482e-66,
+        "spearman_with_log_price": 0.6237680453653048,
+        "spearman_log_price_pvalue": 2.51066934141321e-143
+      }
+    },
+    "screen_size_inches": {
+      "valid_count": 2255,
+      "missing_count": 1,
+      "missing_percentage": 0.044326241134751775,
+      "mean": 6.08109090909091,
+      "std": 0.8074841020968441,
+      "median": 6.5,
+      "min": 2.2,
+      "max": 8.03,
+      "q25": 5.5,
+      "q75": 6.67,
+      "skewness": -1.4783440373072092,
+      "kurtosis": 2.6094628335339554,
+      "bivariate_associations": {
+        "pearson_with_raw_price": 0.24670377677705246,
+        "pearson_raw_price_pvalue": 1.2873740973277241e-32,
+        "spearman_with_raw_price": 0.37271458559166687,
+        "spearman_raw_price_pvalue": 3.031340791179929e-75,
+        "pearson_with_log_price": 0.3429210498691143,
+        "pearson_log_price_pvalue": 3.047377048978809e-63,
+        "spearman_with_log_price": 0.37271458559166687,
+        "spearman_log_price_pvalue": 3.031340791179929e-75
+      }
+    },
+    "refresh_rate_hz": {
+      "valid_count": 1133,
+      "missing_count": 1123,
+      "missing_percentage": 49.77836879432624,
+      "mean": 99.64607237422771,
+      "std": 24.810751456348104,
+      "median": 90.0,
+      "min": 60.0,
+      "max": 165.0,
+      "q25": 90.0,
+      "q75": 120.0,
+      "skewness": -0.36823609619875847,
+      "kurtosis": -0.9931191409407201,
+      "bivariate_associations": {
+        "pearson_with_raw_price": 0.2896766471161428,
+        "pearson_raw_price_pvalue": 2.4235052807610083e-23,
+        "spearman_with_raw_price": 0.5149356797076249,
+        "spearman_raw_price_pvalue": 9.879663222847198e-78,
+        "pearson_with_log_price": 0.4396831173937943,
+        "pearson_log_price_pvalue": 9.323705994475868e-55,
+        "spearman_with_log_price": 0.5149356797076249,
+        "spearman_log_price_pvalue": 9.879663222847198e-78
+      }
+    },
+    "rear_main_sensor_mp": {
+      "valid_count": 2256,
+      "missing_count": 0,
+      "missing_percentage": 0.0,
+      "mean": 34.82553191489362,
+      "std": 30.286490071811464,
+      "median": 16.0,
+      "min": 2.0,
+      "max": 200.0,
+      "q25": 12.2,
+      "q75": 50.0,
+      "skewness": 1.9480088739002281,
+      "kurtosis": 6.930959197628351,
+      "bivariate_associations": {
+        "pearson_with_raw_price": 0.20855871248331448,
+        "pearson_raw_price_pvalue": 1.3667459600194125e-23,
+        "spearman_with_raw_price": 0.46585189845083386,
+        "spearman_raw_price_pvalue": 6.527317014090291e-122,
+        "pearson_with_log_price": 0.35560424227948495,
+        "pearson_log_price_pvalue": 3.1768029238386474e-68,
+        "spearman_with_log_price": 0.46585189845083386,
+        "spearman_log_price_pvalue": 6.527317014090291e-122
+      }
+    },
+    "front_main_sensor_mp": {
+      "valid_count": 2224,
+      "missing_count": 32,
+      "missing_percentage": 1.4184397163120568,
+      "mean": 12.972302158273381,
+      "std": 10.579263487136132,
+      "median": 8.0,
+      "min": 0.1,
+      "max": 60.0,
+      "q25": 5.0,
+      "q75": 16.0,
+      "skewness": 1.6071567918416152,
+      "kurtosis": 2.641736644721923,
+      "bivariate_associations": {
+        "pearson_with_raw_price": 0.24065867794689505,
+        "pearson_raw_price_pvalue": 1.140951049106782e-30,
+        "spearman_with_raw_price": 0.5792987950768129,
+        "spearman_raw_price_pvalue": 1.5628429382987095e-199,
+        "pearson_with_log_price": 0.4424584646420755,
+        "pearson_log_price_pvalue": 2.881586789583146e-107,
+        "spearman_with_log_price": 0.5792987950768129,
+        "spearman_log_price_pvalue": 1.5628429382987095e-199
+      }
+    }
+  },
+  "battery_stratified_bivariate_analysis": {
+    "Entry-level": {
+      "n": 726,
+      "mean_battery_mah": 3682.176308539945,
+      "pearson_r_with_log_price": 0.40138139587981225,
+      "pearson_pvalue": 1.7663483595633065e-29,
+      "spearman_rho_with_log_price": 0.39709931563615697
+    },
+    "Budget-to-mid": {
+      "n": 806,
+      "mean_battery_mah": 4389.900744416874,
+      "pearson_r_with_log_price": 0.04599136722737734,
+      "pearson_pvalue": 0.1921091133875313,
+      "spearman_rho_with_log_price": 0.004296182343445886
+    },
+    "Mid-range": {
+      "n": 394,
+      "mean_battery_mah": 4346.045685279188,
+      "pearson_r_with_log_price": -0.03708724702951427,
+      "pearson_pvalue": 0.46290335880236894,
+      "spearman_rho_with_log_price": -0.06313373591987145
+    },
+    "Upper-mid": {
+      "n": 197,
+      "mean_battery_mah": 4430.502538071066,
+      "pearson_r_with_log_price": 0.12282796521642433,
+      "pearson_pvalue": 0.08551997193637587,
+      "spearman_rho_with_log_price": 0.0020743812692284743
+    },
+    "Premium": {
+      "n": 133,
+      "mean_battery_mah": 4093.9774436090224,
+      "pearson_r_with_log_price": 0.02970537487304749,
+      "pearson_pvalue": 0.7342931417307759,
+      "spearman_rho_with_log_price": 0.06644753708116193
+    },
+    "sub_20k_pooled": {
+      "n": 1534,
+      "pearson_r_with_log_price": 0.3456311961934071
+    },
+    "above_20k_pooled": {
+      "n": 722,
+      "pearson_r_with_log_price": -0.04014861431589901
+    }
+  },
+  "vif_diagnostics_summary": {
+    "model_1_max_vif": 4.072569058442385,
+    "model_2_max_vif": 4.309017762693406,
+    "model_3_unadjusted_rank_deficient": true,
+    "model_3_adjusted_max_vif": 8.372651705240795,
+    "model_3_adjusted_full_rank": true
+  },
+  "model_4_within_summary": {
+    "total_configs": 1092,
+    "total_clusters": 483,
+    "strictly_invariant_configs": 1075,
+    "strictly_invariant_devices": 476,
+    "within_vif": 1.1248565715127994,
+    "unscaled_condition_number": 4824.422941307189,
+    "standardized_condition_number": 1.9992349504808056
+  },
+  "model_5_subsample_summary": {
+    "record_retention_pct": 48.8031914893617,
+    "median_price_pct_diff": 31.02972618801297,
+    "mean_price_pct_diff": 28.773951798116194,
+    "mean_ram_pct_diff": 42.066904933222006,
+    "mean_storage_pct_diff": 56.06856580995561
+  },
+  "model_6_quantile_summary": {
+    "sample_size": 2195,
+    "device_clusters_count": 1586,
+    "p10_threshold_price_inr": 6989.9999999999945,
+    "p90_threshold_price_inr": 44995.399783972156,
+    "bottom_10_count": 221,
+    "top_10_count": 220,
+    "brands_with_zero_entries_in_p10": 23,
+    "brands_with_zero_entries_in_p90": 38,
+    "inference_status": "UNRESOLVED_PENDING_STAGE_EVALUATION",
+    "inference_risk_note": "Because extreme price quantiles exhibit severe categorical cell sparsity (43 brands missing at p10, 49 brands missing at p90), clustered block-bootstrapping presents a potential diagnostic risk of encountering singular design matrices in resampled draws. However, non-clustered standard errors are not automatically prescribed. The exact inference strategy for Model 6 remains formally unresolved pending dedicated evaluation in a later stage."
+  }
+}
