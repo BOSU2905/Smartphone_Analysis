@@ -81,6 +81,45 @@ class TestExactDeduplication(unittest.TestCase):
         rep_ids2 = [r.representative_listing_id for r in records2]
         self.assertEqual(rep_ids1, rep_ids2)
 
+    def test_deduplication_mathematical_reconciliation(self):
+        """Asserts complete mathematical reconciliation of singletons, multi-listings, and raw rows."""
+        records, audit = exact_deduplicate(self.ingestion_res.raw_dataframe)
+        singletons = audit["singleton_records_count"]
+        multi_groups = audit["multi_listing_duplicate_groups_count"]
+        retained = audit["unique_retained_records"]
+        removed = audit["exact_duplicate_rows_removed"]
+        raw_total = audit["raw_row_count"]
+
+        # Exactly 1,584 singletons and 672 multi-listing pairs
+        self.assertEqual(singletons, 1584)
+        self.assertEqual(multi_groups, 672)
+
+        # 1,584 singletons + 672 multi-listing representative records = 2,256 retained
+        self.assertEqual(singletons + multi_groups, retained)
+        self.assertEqual(retained, 2256)
+
+        # 1,584 * 1 + 672 * 2 = 2,928 total raw source listings
+        self.assertEqual(singletons * 1 + multi_groups * 2, raw_total)
+        self.assertEqual(raw_total, 2928)
+
+        # Exactly 672 duplicate rows removed (2,928 - 2,256 = 672)
+        self.assertEqual(raw_total - retained, removed)
+        self.assertEqual(removed, 672)
+
+    def test_lineage_exhaustive_coverage_zero_omissions(self):
+        """Asserts every single raw listing_id (rec_0001..rec_2928) is accounted for exactly once."""
+        raw_ids = set(self.ingestion_res.raw_dataframe["listing_id"])
+        self.assertEqual(len(raw_ids), 2928)
+
+        records, _ = exact_deduplicate(self.ingestion_res.raw_dataframe)
+        accounted_ids = []
+        for r in records:
+            accounted_ids.extend(r.duplicate_listing_ids)
+
+        self.assertEqual(len(accounted_ids), 2928)
+        self.assertEqual(len(set(accounted_ids)), 2928)
+        self.assertEqual(set(accounted_ids), raw_ids)
+
 
 class TestIdentityResolution(unittest.TestCase):
     """Verifies deterministic ID generation, plus-sign preservation, and edge cases."""

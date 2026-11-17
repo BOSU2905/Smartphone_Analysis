@@ -371,11 +371,16 @@ def exact_deduplicate(
         key=lambda r: int(re.sub(r"[^\d]", "", r.representative_listing_id))
     )
 
+    total_singletons = sum(1 for r in deduped_records if r.duplicate_count == 1)
+    total_multi_listing_groups = len(audit_groups)
+
     audit_summary = {
         "raw_row_count": len(df),
         "exact_duplicate_rows_removed": total_exact_duplicate_rows,
         "unique_retained_records": len(deduped_records),
-        "duplicate_groups_count": len(audit_groups),
+        "singleton_records_count": total_singletons,
+        "multi_listing_duplicate_groups_count": total_multi_listing_groups,
+        "duplicate_groups_count": total_multi_listing_groups,
         "expected_raw_rows": EXPECTED_RAW_ROW_COUNT,
         "expected_duplicate_rows": EXPECTED_EXACT_DUPLICATE_ROW_COUNT,
         "expected_unique_records": EXPECTED_DEDUPLICATED_ROW_COUNT,
